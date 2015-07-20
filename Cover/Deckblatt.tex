@@ -1,0 +1,159 @@
+\documentclass[a4paper,11pt]{scrartcl}
+%
+% -------------------------------------------------
+% character encoding
+% -------------------------------------------------
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\RequirePackage{lmodern}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{color}
+%
+\pagestyle{empty}
+%
+% -------------------------------------------------
+% adjust the page margins
+% -------------------------------------------------
+\usepackage[scale=1]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{0pt}
+\setlength{\footskip}{0pt}
+\setlength{\headheight}{15pt}
+\setlength{\topskip}{0pt}
+%
+% -------------------------------------------------
+% Positionierung der Textelemente
+% -------------------------------------------------
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{\TPHorizModule}
+%
+% -------------------------------------------------
+% personal data
+% -------------------------------------------------
+\def\firstname{Sascha}
+\def\familyname{Manns}
+\def\FileAuthor{\firstname \familyname}
+\def\FileSubject{Deckblatt}
+%
+% -------------------------------------------------
+% Firmendaten <<-------------------------------
+% -------------------------------------------------
+%\def\Ansprechpartner{Frau Jessica Gietzel}
+%\def\Firma{mobilcom-debitel Shop GmbH}
+%\def\Stelle{Verkaufsberater für Telekommunikation}
+\input{entity.tex}
+%
+%
+% -------------------------------------------------
+% Font
+% -------------------------------------------------
+%\renewcommand{\ttdefault}{pcr}
+%\renewcommand{\ttdefault}{Latin Modern}
+%
+% -------------------------------------------------
+% Aus der moderncvstylecasual.sty:
+% -------------------------------------------------
+\definecolor{blau}{rgb}{0.20,0.40,0.65}
+\definecolor{hellblau}{rgb}{0.25,0.50,0.75}
+\definecolor{orange}{rgb}{0.95,0.55,0.15}
+%\definecolor{gruen}{rgb}{0.30,0.65,0.15}
+\definecolor{gruen}{rgb}{0.35,0.70,0.30}
+\definecolor{rot}{rgb}{0.95,0.20,0.20}
+\definecolor{dunkelgrau}{rgb}{0.35,0.35,0.35}
+\definecolor{hellgrau}{rgb}{0.45,0.45,0.45}
+\definecolor{schwarz}{rgb}{0,0,0}
+\definecolor{gray}{rgb}{0.77,0.77,0.77}
+\newcommand*{\firstnamefont}{\fontsize{25}{27}\sffamily\mdseries\upshape}
+\newcommand*{\familynamefont}{\firstnamefont}
+\newcommand*{\titel}{\fontsize{25}{27}\mdseries\upshape}
+\newcommand*{\inhalt}{\fontsize{15}{17}\mdseries\upshape}
+%
+\begin{document}
+\sffamily
+%
+% -------------------------------------------------
+% Titel
+% -------------------------------------------------
+\begin{textblock}{10}(3,5)
+\color{schwarz}{
+ \bfseries \begin{Large}\titel{Bewerbungsunterlagen} \\ 
+ %2nd Level IT-Support
+  \end{Large}}
+\end{textblock}
+%
+% -------------------------------------------------
+% Ansprechpartner
+% -------------------------------------------------
+\begin{textblock}{10}(3,6)
+\color{schwarz}
+	\begin{Large}
+	 	für die \Firma \\
+	 	als \\
+	 	\textbf{\Stelle} 
+	\end{Large} 	
+\end{textblock}
+%
+% -------------------------------------------------
+% Inhaltsverzeichnis
+% -------------------------------------------------
+\begin{textblock}{10}(3,10)
+\color{schwarz}{\inhalt{Anlagen:
+	\begin{itemize}\setlength{\itemsep}{-2pt}
+		\item Lebenslauf
+		\item Zwischenzeugnis des Studiums
+		\item Arbeitszeugnisse \& Zertifikate
+		\item Abschlusszeugnisse
+	\end{itemize}
+}}
+\end{textblock}
+%
+% -------------------------------------------------
+% Vertikaler Strich
+% -------------------------------------------------
+\begin{textblock}{1}(13.5,0)
+	%\color{gray}{\vrule width 0.5ex depth 1\textheight}
+	\color{hellblau}{\vrule width 45.5ex depth 1\textheight}
+\end{textblock}
+
+% -------------------------------------------------
+% Horizontaler Strich
+% -------------------------------------------------
+%\begin{textblock}{10}(0,4)
+%	%\color{hellgrau}{\hlinefill}%
+%	\color{hellgrau}\rule{1.35\textwidth}{15ex}
+%\end{textblock}
+%
+% -------------------------------------------------
+% Passfoto
+% -------------------------------------------------
+\begin{textblock}{3}(3.0,18.5)
+	\fbox{\includegraphics[width=4cm]{../Bilder/Sascha1p.jpg}}
+\end{textblock}
+%
+% -------------------------------------------------
+% Anschrift
+% -------------------------------------------------
+\begin{textblock}{4.8}(14,25)
+	\begin{flushleft}
+		\vspace{-3.5cm}
+		{\bfseries \begin{Large}\firstnamefont{\color{schwarz}{\firstname}}~\familynamefont{\color{schwarz}{\familyname}}\end{Large}}\\[.35ex]
+		\small\itshape%
+		\color{schwarz}{Maifeldstraße 10\\
+		56727 Mayen\\[.35ex]
+		\Telefon~+49-2651-40~14~045\\
+		\Letter~{Sascha.Manns@bdvb.de}}
+	\end{flushleft}
+\end{textblock}
+%
+% -------------------------------------------------
+% Hintergrundbild
+% -------------------------------------------------
+% \begin{textblock}{13.5}(0,0)
+% 	\includegraphics[width=13.5cm, height=\textheight]{background.png}
+% \end{textblock}
+%
+\end{document}

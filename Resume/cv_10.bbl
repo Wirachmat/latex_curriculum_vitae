@@ -1,0 +1,1982 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{3}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{4}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{5}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{6}
+  \sortlist{chronological}{chronological}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+  \sortlist{ydnt}{ydnt}
+    \entry{bib.hb.pactive}{book}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {Sascha Manns}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Plasma Active 4 Handbook}}
+      \field{isbn}{978-1-291-57705-1}
+      \field{title}{{Plasma Active 4 Handbook}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://d-nb.info/1042698783
+      \endverb
+    \endentry
+    \entry{bib.misc.slx}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{morebookauthor}
+      \name{bookauthor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{open-slx Weekly News}}
+      \field{issn}{2195-5344}
+      \field{title}{{open-slx Weekly News}}
+      \field{year}{2012-2013}
+      \verb{url}
+      \verb http://openslxowr.sourceforge.net
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.slx' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.hb.openslx}{book}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3fa22fec0ff49a51272e6b6870b5324a}{Köke}{K\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Nürnberg}%
+      }
+      \list{organization}{1}{%
+        {open-slx GmbH}%
+      }
+      \list{publisher}{1}{%
+        {open-slx GmbH}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{bef3996505044a0d2e2f7654df143181}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Startup Guide für Balsam Professional}}
+      \field{howpublished}{Boxprodukt}
+      \field{title}{{Startup Guide für Balsam Professional}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://d-nb.info/1016808844
+      \endverb
+    \endentry
+    \entry{bib.ds.datenbrief}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{organization}{1}{%
+        {Chaos Computer Club}%
+      }
+      \list{publisher}{1}{%
+        {Chaos Computer Club}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{issn}{0930-1054}
+      \field{journaltitle}{Die Datenschleuder}
+      \field{number}{94}
+      \field{title}{{Praxis Dr. Datenbrief - Ein Selbstversuch}}
+      \field{year}{2010}
+      \field{pages}{37}
+      \verb{url}
+      \verb http://ds.ccc.de/pdfs/ds094.pdf
+      \endverb
+    \endentry
+    \entry{bib.misc.opensusewn}{misc}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c035261fa14ea12434a23980ed201d6}{Manns}{M\bibinitperiod}{Sascha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mayen}%
+      }
+      \list{publisher}{1}{%
+        {openSUSE Project}%
+      }
+      \strng{namehash}{fe48f3f202a530e7fc20de941aba5587}
+      \strng{fullhash}{fe48f3f202a530e7fc20de941aba5587}
+      \field{sortinit}{2}
+      \field{sortinithash}{bf63d623a0391c2c4e5a334ddaf25b12}
+      \field{labeltitle}{{openSUSE Weekly News}}
+      \field{title}{{openSUSE Weekly News}}
+      \field{year}{2009-2011}
+      \verb{url}
+      \verb http://news.opensuse.org/tag/newsletter/
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.misc.opensusewn' (../Anlagen/Bibliographie/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

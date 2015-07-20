@@ -1,0 +1,199 @@
+%---------------------------------------------------------------------------
+\documentclass%%
+%---------------------------------------------------------------------------
+  [fontsize=11pt,%%          Schriftgroesse
+%---------------------------------------------------------------------------
+% Satzspiegel
+   paper=a4,%%               Papierformat
+   %enlargefirstpage=on,%%    Erste Seite anders
+   %pagenumber=headright,%%   Seitenzahl oben mittig  
+%---------------------------------------------------------------------------
+% Layout
+   headsepline=off,%%         Linie unter der Seitenzahl
+   parskip=half,%%           Abstand zwischen Absaetzen
+%---------------------------------------------------------------------------
+% Was kommt in den Briefkopf und in die Anschrift
+   fromalign=right,%%        Plazierung des Briefkopfs
+   fromphone=on,%%           Telefonnummer im Absender
+   fromrule=aftername,%%     Linie im Absender (aftername, afteraddress)
+   fromfax=off,%%            Faxnummer
+   fromemail=on,%%           Emailadresse
+   fromurl=on,%%            Homepage
+   fromlogo=on,%%            Firmenlogo
+   addrfield=on,%%           Adressfeld fuer Fensterkuverts
+   backaddress=on,%%         ...und Absender im Fenster
+   subject=beforeopening,%%  Plazierung der Betreffzeile
+   locfield=narrow,%%        zusaetzliches Feld fuer Absender
+   foldmarks=on,%%           Faltmarken setzen
+   numericaldate=off,%%      Datum numerisch ausgeben
+   refline=narrow,%%         Geschaeftszeile im Satzspiegel
+   firstfoot=on,%%           Footerbereich
+%---------------------------------------------------------------------------
+% Formatierung
+   draft=off%%                Entwurfsmodus
+]{scrlttr2}
+%---------------------------------------------------------------------------
+\usepackage[english, ngerman]{babel}  
+\usepackage{url}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} 
+% symbols: (cell)phone, email
+\RequirePackage{marvosym} 
+% for gray color in header
+\RequirePackage{color}
+\usepackage[T1]{fontenc}
+
+%---------------------------------------------------------------------------
+% Schriften werden hier definiert
+\renewcommand*\familydefault{\sfdefault} % Latin Modern Sans
+\setkomafont{fromname}{\sffamily\color{mygruen}\LARGE}
+%\setkomafont{pagenumber}{\sffamily}
+\setkomafont{subject}{\mdseries}
+\setkomafont{backaddress}{\mdseries}
+\setkomafont{fromaddress}{\small\sffamily\mdseries\color{mygray}}
+
+%---------------------------------------------------------------------------<<<<<<<<<<Firmendetails
+%\def\Firma{Art of Transfer GbR Monica Baumberger}
+%\def\Ansprechpartner{Frau Monica Baumberger}
+%\def\Strasse{Sigmund-Riefler-Bogen 13}
+%\def\PLZ{81829 München - Trudering-Riem}
+%\def\Stelle{Buchstabenzähler}
+\input{entity.tex}
+%---------------------------------------------------------------------------
+\begin{document}
+%---------------------------------------------------------------------------
+% Briefstil und Position des Briefkopfs
+\LoadLetterOption{DIN} %% oder: DINmtext, SN, SNleft, KOMAold.
+\makeatletter
+\@setplength{sigbeforevskip}{17mm} % Abstand der Signatur von dem closing
+\@setplength{firstheadvpos}{12mm} % Abstand des Absenderfeldes vom Top
+\@setplength{firstfootvpos}{275mm} % Abstand des Footers von oben
+\@setplength{firstheadwidth}{\paperwidth}
+\@setplength{locwidth}{70mm}   % Breite des Locationfeldes
+\@setplength{locvpos}{65mm}    % Abstand des Locationfeldes von oben
+\ifdim \useplength{toaddrhpos}>\z@
+  \@addtoplength[-2]{firstheadwidth}{\useplength{toaddrhpos}}
+\else
+  \@addtoplength[2]{firstheadwidth}{\useplength{toaddrhpos}}
+\fi
+\@setplength{foldmarkhpos}{6.5mm}
+\makeatother
+%---------------------------------------------------------------------------
+% Farben werden hier definiert
+% define gray for header
+\definecolor{mygray}{gray}{.55}
+% define blue for address
+\definecolor{myblue}{rgb}{0.25,0.45,0.75}
+\definecolor{mygruen}{rgb}{0.35,0.70,0.30}
+%\setkomavar{fromlogo}{\includegraphics[scale=0.2]{pabook.jpg}}
+%---------------------------------------------------------------------------
+% Absender Daten
+\setkomavar{fromname}{Sascha Manns}
+\setkomavar{fromaddress}{Maifeldstraße 10\\D-56 727 Mayen}
+\setkomavar{fromphone}[\Mobilefone~]{+49\,(0)\,2651\,40\,14\,045}
+\setkomavar{fromfax}[\FAX~]{+49\,(0)\,123\,456\,789\,1}
+\setkomavar{fromemail}[\Letter~]{Sascha.Manns@bdvb.de}
+\setkomavar{fromurl}[]{http://saigkill.github.io}
+\setkomafont{fromaddress}{\small\rmfamily\mdseries\slshape\color{mygruen}}
+
+\setkomavar{backaddressseparator}{ - }
+\setkomavar{signature}{\\[-3\baselineskip]%
+%\rule{10em}{2\baselineskip}\\
+\includegraphics[scale=0.7]{spool/signatur.png}\\
+SASCHA MANNS}
+%\setkomavar{backaddress}{Tim Metzner, Felderhof 112, 40880 Ratingen} % wenn erwünscht kann hier eine andere Backaddress eingetragen werden
+%\setkomavar{signature}{SASCHA MANNS} 
+% signature same indention level as rest
+%\renewcommand*{\raggedsignature}{\raggedright}
+%\setkomavar{location}{\raggedleft
+
+%Kundennummer: 12345678 \\}
+
+% Anlage neu definieren
+%\renewcommand{\enclname}{Anlagen}
+%\setkomavar{enclseparator}{: }
+%---------------------------------------------------------------------------
+% Seitenstil
+%pagenumber=footmiddle
+\pagestyle{plain}%% keine Header in der Kopfzeile bzw. plain
+\pagenumbering{arabic}
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\firstfoot{\footnotesize%
+\rule[3pt]{\textwidth}{.4pt} \\
+\begin{tabular}[t]{l@{}}% 
+\usekomavar{fromname}\\
+\usekomavar{fromaddress}\\
+\end{tabular}%
+\hfill
+\begin{tabular}[t]{l@{}}%
+  \usekomavar[\Mobilefone~]{fromphone}\\
+   \usekomavar[\Letter~]{fromemail}\\
+\end{tabular}%
+\ifkomavarempty{frombank}{}{%
+\hfill
+\begin{tabular}[t]{l@{}}%
+\usekomavar{frombank}
+\end{tabular}%
+}%
+}% 
+%---------------------------------------------------------------------------
+% Bankverbindung
+\setkomavar{frombank}{Kto. 198\ 242\ 620\\
+BLZ 576\,500\,10\\
+Kreissparkasse Mayen}
+%---------------------------------------------------------------------------
+%\setkomavar{yourref}{}
+%\setkomavar{yourmail}{}
+%\setkomavar{myref}{}
+%\setkomavar{customer}{}
+%\setkomavar{invoice}{}
+%---------------------------------------------------------------------------
+% Datum und Ort werden hier eingetragen
+\setkomavar{date}{den \today}
+\setkomavar{place}{Mayen}
+%---------------------------------------------------------------------------
+
+
+%---------------------------------------------------------------------------
+% Hier beginnt der Brief, mit der Anschrift des Empfängers
+
+\begin{letter}{\Firma \\
+c/o \Ansprechpartner  \\ 
+%\Strasse \\ 
+%\PLZ
+}
+
+%---------------------------------------------------------------------------
+% Der Betreff des Briefes
+\setkomavar{subject}{\bf{Bewerbung um einen Arbeitsplatz als \Stelle}
+}
+%---------------------------------------------------------------------------
+%\opening{Sehr geehrter \Ansprechpartner,}
+\opening{Sehr geehrte Damen und Herren,}
+
+gerne antworte ich auf Ihre Anzeige. \\
+%gerne möchte ich eine Initiativbewerbung einreichen.\\
+Mit meinen vielfältigen Erfahrungen als Kaufmann, Community Manager, Buchautor und Customer Supporter (Level 1\&2) könnte ich Ihr neuer Mitarbeiter sein. \\
+%Nach meiner Kaufmännischen Ausbildung und anschließenden Arbeit wurde ich während meines Ersatzdienstes als Maler \& Bodenleger angelernt. In letzterem durfte ich auch nach einer Weile eigene Teams und Projekte leiten.\\ 
+%Im Rahmen des Supports betreute ich im den letzten Jahren Kunden unseres Linux-Boxproduktes via Email und Telefon und erreichte stets eine gute Kundenzufriedenheit. 
+Durch meine Tätigkeit als Projektgründer der openSUSE Medical Distribution ist mir das Testing und Packaging medizinischer SW bestens bekannt. In den letzten Monaten arbeitete ich bei ITSCare (dem IT-Dienstleister der AOKen) als Dispatcher und Supporter. Alle erarbeitete Lösungen pflegte ich in unsere Support-Datenbank ein. Auch die Einrichtung und Durchführung von Projekten sind mir vertraut.\\
+%Als Kaufmann sammelte ich bereits umfangreiche Erfahrungen im Bereich der Materialwirtschaft im T\&Z Bereich der Automobilteile. Sämtliche Prozesse von der Bestellung bis hin zu Warenannahme bis zur Mängelrüge sind mir bekannt.\\
+%Innerhalb meiner Laufbahn habe ich bereits Erfahrungen im Projektmanagement sammeln können, als Leiter des Weekly News Projektes, als auch als Gründer des Projektes für freie medizinische Software. 
+%Innerhalb der open-slx GmbH durfte ich ein Wiki-Migrationsprojekt leiten.\\
+%In meiner Freizeit arbeite ich am Plasma Active Projekt mit, einem Open-Source GUI Projekt für neuartige Geräteklassen. Darüber habe ich auch kürzlich ein Buch veröffentlicht. \\
+%Meine Erfahrungen mit Tools zur Handbucherstellung sind nützlich für Sie. Neben der Beschreibungssprache DocBook samt XSL-FO lerne ich aktuell die Satzsprache \LaTeX. \\
+Aktuell studiere ich berufsbegleitend den staatlich geprüften Betriebswirt im Schwerpunktfach Wirtschaftsinformatik. Ein aktuelles Zwischenzeugnis liegt im Anhang.\\
+Ich bin mir sicher, die von Ihnen gewünschten Kenntnisse und Fähigkeiten mitzubringen, und würde mich sehr über ein Vorstellungsgespräch freuen.
+\closing{Mit freundlichen Grüßen}
+
+%---------------------------------------------------------------------------
+%\ps{PS:}
+%\encl{Bewerbungsunterlagen}
+%\cc{}
+%---------------------------------------------------------------------------
+\end{letter}
+%---------------------------------------------------------------------------
+\end{document}
+%---------------------------------------------------------------------------
