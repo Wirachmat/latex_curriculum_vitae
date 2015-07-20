@@ -26,19 +26,19 @@ pdfauthor={Sascha Manns}, %%
 pdfsubject={Bewerbungsunterlagen}, %%
 pdfcreator={XeLaTEX and Biber with hyperref-package.},
 pdfproducer={Sascha Manns, Mayen}, %%
-pdfkeywords={Manns, Mayen, Bewerbung, IT, Social Media, Community, Linux, Programmierer, Dispatcher, Buchautor} %%
+pdfkeywords={Manns, Mayen, Bewerbung, IT, Community, Linux, Programmierer, Dispatcher, Buchautor} %%
 }
 \usepackage{pdfpages}
 \usepackage{graphicx}
 \usepackage{xltxtra}
 %\usepackage{rotating}
 
-\addbibresource{../Anlagen/Bibliographie/bibliography1.bib} % Specify the bibliography file to include publications
-%\input{entity.tex}
+\addbibresource{../Appendix/Bibliography/bibliography1.bib} % Specify the bibliography file to include publications
+\input{../personal_data.tex}
 
 \begin{document}
 %\includepdf{../Anschreiben/bwanschreiben} %bei Bedarf uncommenten
-\includepdf{../Deckblatt/Deckblatt}
+\includepdf{../Cover/Cover}
 
 \header{Sascha}{Manns}{Autor Geschäftsprozessdokumentation} % Your name and current job title/field
 
@@ -415,7 +415,7 @@ allgemeine kaufm. Tätigkeiten.
 %----------------------------------------------------------------------------------------
 
 \begin{center}
-\includegraphics[scale=0.7]{../Bilder/signatur.png} \\
+\includegraphics[scale=0.7]{../Pictures/signatur.png} \\
 \begin{tabular}{@{}l@{}}
 \\ $\frac{}{\strut\textnormal{Sascha Manns, Mayen den \today}}$
 \end{tabular}
@@ -425,16 +425,16 @@ allgemeine kaufm. Tätigkeiten.
 %---------------------------------------------------------------------------
 % Include PDF
 \begin{figure}  
-  \includegraphics[page=1,scale=0.7,angle=180]{../Anlagen/Arbeitszeugnisse/hays.pdf}
+  \includegraphics[page=1,scale=0.7,angle=180]{../Appendix/Employers_Reference/hays.pdf}
 \end{figure}
-\includepdf{../Anlagen/Studium/foo}
+\includepdf{../Appendix/Study/foo}
 %\includepdf{../Anlagen/Arbeitszeugnisse/hays}
-\includepdf{../Anlagen/Zertifikate/thm-webeng1}
-\includepdf{../Anlagen/Arbeitszeugnisse/openslx}
-\includepdf{../Anlagen/Arbeitszeugnisse/openslx1}
-\includepdf{../Anlagen/Zertifikate/kompetenzpass12013}
-\includepdf{../Anlagen/Zertifikate/Zertifikat_Sascha_Manns1}
-\includepdf{../Anlagen/Arbeitszeugnisse/wtg}
-\includepdf{../Anlagen/Ausbildungszeugnisse/ihk}
+\includepdf{../Appendix/Certificates/thm-webeng1}
+\includepdf{../Appendix/Employers_Reference/openslx}
+\includepdf{../Appendix/Employers_Reference/openslx1}
+\includepdf{../Appendix/Certificates/kompetenzpass12013}
+\includepdf{../Appendix/Certificates/Zertifikat_Sascha_Manns1}
+\includepdf{../Appendix/Employers_Reference/wtg}
+\includepdf{../Appendix/First_References/ihk}
 
 \end{document}

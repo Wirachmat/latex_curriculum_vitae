@@ -80,7 +80,7 @@
       <file>cv_10.bcf</file>
     </requires>
     <requires type="editable">
-      <file>../Anlagen/Bibliographie/bibliography1.bib</file>
+      <file>../Appendix/Bibliography/bibliography1.bib</file>
     </requires>
   </external>
 </requests>

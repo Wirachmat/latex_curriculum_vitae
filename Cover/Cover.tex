@@ -6,7 +6,6 @@
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-%\RequirePackage{lmodern}
 \usepackage{lmodern}
 \usepackage{marvosym}
 \usepackage{graphicx}
@@ -25,7 +24,7 @@
 \setlength{\topskip}{0pt}
 %
 % -------------------------------------------------
-% Positionierung der Textelemente
+% Positioning the text elements
 % -------------------------------------------------
 \usepackage[absolute]{textpos}
 \setlength{\TPHorizModule}{1cm}
@@ -34,18 +33,12 @@
 % -------------------------------------------------
 % personal data
 % -------------------------------------------------
-\def\firstname{Sascha}
-\def\familyname{Manns}
-\def\FileAuthor{\firstname \familyname}
-\def\FileSubject{Deckblatt}
+\input{../personal_data.tex}
 %
 % -------------------------------------------------
 % Firmendaten <<-------------------------------
 % -------------------------------------------------
-%\def\Ansprechpartner{Frau Jessica Gietzel}
-%\def\Firma{mobilcom-debitel Shop GmbH}
-%\def\Stelle{Verkaufsberater für Telekommunikation}
-\input{entity.tex}
+\input{../entity.tex}
 %
 %
 % -------------------------------------------------
@@ -91,9 +84,9 @@
 \begin{textblock}{10}(3,6)
 \color{schwarz}
 	\begin{Large}
-	 	für die \Firma \\
+	 	für die \company \\
 	 	als \\
-	 	\textbf{\Stelle} 
+	 	\textbf{\jobtitle}
 	\end{Large} 	
 \end{textblock}
 %
@@ -131,7 +124,7 @@
 % Passfoto
 % -------------------------------------------------
 \begin{textblock}{3}(3.0,18.5)
-	\fbox{\includegraphics[width=4cm]{../Bilder/Sascha1p.jpg}}
+	\fbox{\includegraphics[width=4cm]{../Pictures/Sascha1p.jpg}}
 \end{textblock}
 %
 % -------------------------------------------------
@@ -142,10 +135,10 @@
 		\vspace{-3.5cm}
 		{\bfseries \begin{Large}\firstnamefont{\color{schwarz}{\firstname}}~\familynamefont{\color{schwarz}{\familyname}}\end{Large}}\\[.35ex]
 		\small\itshape%
-		\color{schwarz}{Maifeldstraße 10\\
-		56727 Mayen\\[.35ex]
-		\Telefon~+49-2651-40~14~045\\
-		\Letter~{Sascha.Manns@bdvb.de}}
+		\color{schwarz}{\mystreet\\
+		\mycity\\[.35ex]
+		\Telefon~\myphone\\
+		\Letter~{\myemail}}
 	\end{flushleft}
 \end{textblock}
 %
