@@ -1,5 +1,7 @@
-# Class for creating the entityfile
-class Entityfile
+# encoding: utf-8
+
+# Module for creating the entityfile
+module Entityfile
   def self.get_information
     puts 'What is the jobtitle of your application?'
     jobtitle = STDIN.gets.chomp
