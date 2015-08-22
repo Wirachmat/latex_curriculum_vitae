@@ -6,27 +6,23 @@ require 'fileutils'
 require File.expand_path(File.join(File.dirname(__FILE__), 'lib/entityfile'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'lib/cv'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'lib/cover'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'lib/email'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'lib/outfile'))
 
 desc 'Prepares Entityfile'
-task :entityfile do
+task :run do
   FileUtils.rm('entity.tex') if File.exist?('entity.tex')
-  Entityfile.get_information
-end
-
-desc 'Compiles Cover'
-task :cover do
+  contact, emailaddress, jobtitle, contact_sex, company = Entityfile.get_information
   FileUtils.cd('Cover') do
     Cover.create_cover
   end
-end
-
-desc 'Compiles CV'
-task :cv do
   FileUtils.cd('Resume') do
     CV.create_cv
   end
+  CVEmail.create_email(contact, emailaddress, jobtitle, contact_sex, proactive)
+  CVOutfile.add_to_outfile(jobtitle, company, contact, emailaddress)
 end
 
-task :default => [:entityfile, :cover, :cv] do
+task :default => [:run] do
   puts 'Using the default task'
 end

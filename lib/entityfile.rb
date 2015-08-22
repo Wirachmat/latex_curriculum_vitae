@@ -5,15 +5,22 @@ module Entityfile
   def self.get_information
     puts 'What is the jobtitle of your application?'
     jobtitle = STDIN.gets.chomp
-    puts 'What is the company\'s name?'
+    puts 'Is it a proactive application?'
+    proactive = STDIN.gets.chomp
+    puts 'What is the company\'s name? Escape \&'
     company = STDIN.gets.chomp
     puts "What is the street and house number of #{company}?"
     street = STDIN.gets.chomp
     puts "Now i need the ZIP-Code (in german PLZ) and the city where #{company} is."
     city = STDIN.gets.chomp
-    puts 'If you have a contact so give me the name of him/her.'
+    puts 'Is your contact male or female? (leave blank if unknown contact)'
+    contact_sex = STDIN.gets.chomp
+    puts 'If you have a contact so give me the name of him/her. (leave blank if unknown contact)'
     contact = STDIN.gets.chomp
+    puts 'Tell me the email address for sending the application'
+    emailaddress = STDIN.gets.chomp
     create_file(jobtitle, company, street, city, contact)
+    [contact, emailaddress, jobtitle, contact_sex, company, proactive]
   end
 
   def self.create_file(jobtitle, company, street, city, contact)
