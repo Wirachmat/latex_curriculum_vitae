@@ -1,100 +1,100 @@
 [0] Config.pm:321> INFO - This is Biber 1.9
 [0] Config.pm:324> INFO - Logfile is 'cv_10.blg'
-[40] biber:277> INFO - === Fr Aug 21, 2015, 17:39:55
-[40] Biber.pm:334> INFO - Reading 'cv_10.bcf'
-[143] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:633> INFO - Using all citekeys in bib section 1
-[143] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:633> INFO - Using all citekeys in bib section 2
-[144] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[144] Biber.pm:633> INFO - Using all citekeys in bib section 3
-[144] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[144] Biber.pm:633> INFO - Using all citekeys in bib section 4
-[144] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[144] Biber.pm:633> INFO - Using all citekeys in bib section 5
-[144] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[144] Biber.pm:633> INFO - Using all citekeys in bib section 6
-[144] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:3052> INFO - Processing section 1
-[206] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 1
-[207] bibtex.pm:979> INFO - Decoding LaTeX character macros into UTF-8
-[209] bibtex.pm:853> INFO - Found BibTeX data source '../Appendix/Bibliography/bibliography1.bib'
-[226] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[231] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[233] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[296] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[296] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[296] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[296] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[368] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[368] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[368] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[368] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[382] Biber.pm:3052> INFO - Processing section 2
-[383] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 2
-[387] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[390] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[391] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[453] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[453] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[453] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[453] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[526] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[526] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[526] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[526] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[540] Biber.pm:3052> INFO - Processing section 3
-[541] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 3
-[545] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[548] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[550] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[610] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[611] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[611] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[611] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[683] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[683] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[684] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[684] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[698] Biber.pm:3052> INFO - Processing section 4
-[698] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 4
-[703] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[706] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[708] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[771] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[771] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[771] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[771] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[843] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[843] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[843] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[843] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[857] Biber.pm:3052> INFO - Processing section 5
-[858] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 5
-[862] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[865] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[867] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[928] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[928] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[928] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[929] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[1001] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1001] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1001] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[1001] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[1016] Biber.pm:3052> INFO - Processing section 6
-[1016] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 6
-[1020] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[1024] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
-[1025] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
-[1088] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1088] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1088] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
-[1088] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[1162] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1162] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1162] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[1162] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
-[1177] bbl.pm:517> INFO - Writing 'cv_10.bbl' with encoding 'UTF-8'
-[1185] bbl.pm:606> INFO - Output to cv_10.bbl
-[1185] Biber.pm:107> INFO - WARNINGS: 18
+[48] biber:277> INFO - === Sa Aug 22, 2015, 19:41:43
+[49] Biber.pm:334> INFO - Reading 'cv_10.bcf'
+[151] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[151] Biber.pm:633> INFO - Using all citekeys in bib section 1
+[151] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[151] Biber.pm:633> INFO - Using all citekeys in bib section 2
+[152] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:633> INFO - Using all citekeys in bib section 3
+[152] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:633> INFO - Using all citekeys in bib section 4
+[152] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:633> INFO - Using all citekeys in bib section 5
+[152] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:633> INFO - Using all citekeys in bib section 6
+[153] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[183] Biber.pm:3052> INFO - Processing section 1
+[218] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 1
+[220] bibtex.pm:979> INFO - Decoding LaTeX character macros into UTF-8
+[222] bibtex.pm:853> INFO - Found BibTeX data source '../Appendix/Bibliography/bibliography1.bib'
+[242] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[245] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[246] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[311] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[311] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[311] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[311] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[385] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[385] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[385] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[385] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[399] Biber.pm:3052> INFO - Processing section 2
+[400] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 2
+[405] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[407] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[408] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[471] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[471] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[471] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[471] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[545] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[545] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[545] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[545] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[560] Biber.pm:3052> INFO - Processing section 3
+[560] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 3
+[566] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[568] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[570] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[634] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[634] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[634] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[634] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[712] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[712] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[712] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[712] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[727] Biber.pm:3052> INFO - Processing section 4
+[727] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 4
+[732] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[736] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[738] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[801] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[802] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[802] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[802] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[878] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[878] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[878] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[878] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[893] Biber.pm:3052> INFO - Processing section 5
+[894] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 5
+[899] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[901] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[903] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[964] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[964] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[964] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[964] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[1041] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1041] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1041] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[1041] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[1057] Biber.pm:3052> INFO - Processing section 6
+[1057] Biber.pm:3190> INFO - Looking for bibtex format file '../Appendix/Bibliography/bibliography1.bib' for section 6
+[1063] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.opensusewn' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[1065] Utils.pm:144> WARN - Datamodel: Entry 'bib.misc.slx' (../Appendix/Bibliography/bibliography1.bib): Invalid format '2013/11/03' of date field 'urldate' - ignoring
+[1067] Utils.pm:144> WARN - The field 'bookauthor' in entry 'bib.misc.opensusewn' cannot be null, deleting it
+[1138] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1138] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1138] Biber.pm:2929> INFO - Sorting list 'chronological' of type 'entry' with scheme 'chronological' and locale 'en-US'
+[1138] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[1226] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1226] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1226] Biber.pm:2929> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[1226] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[1241] bbl.pm:517> INFO - Writing 'cv_10.bbl' with encoding 'UTF-8'
+[1249] bbl.pm:606> INFO - Output to cv_10.bbl
+[1250] Biber.pm:107> INFO - WARNINGS: 18

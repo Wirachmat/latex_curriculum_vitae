@@ -6,13 +6,15 @@ module CVEmail
     if contact == ''
       introduction = 'Sehr%20geehrte%20Damen%20und%20Herren,'
     else #String.gsub("PHP", "Ruby")
-      contact.gsub(' ', '%20')
+      contact.gsub!(/ /, '%20')
+      puts contact
       if contact_sex == 'male'
         introduction = "Sehr%20geehrter%20Herr%20#{contact},"
       else
         introduction = "Sehr%20geehrte%20Frau%20#{contact},"
       end
     end
+    jobtitle.gsub!(/ /, '%20')
     if proactive == 'yes'
       subject = "Initiativbewerbung%20um%20einen%20Arbeitsplatz%20als%20#{jobtitle}"
     else

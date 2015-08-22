@@ -12,7 +12,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'lib/outfile'))
 desc 'Prepares Entityfile'
 task :run do
   FileUtils.rm('entity.tex') if File.exist?('entity.tex')
-  contact, emailaddress, jobtitle, contact_sex, company = Entityfile.get_information
+  contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information
   FileUtils.cd('Cover') do
     Cover.create_cover
   end
