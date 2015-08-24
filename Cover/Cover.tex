@@ -60,6 +60,7 @@
 \definecolor{hellgrau}{rgb}{0.45,0.45,0.45}
 \definecolor{schwarz}{rgb}{0,0,0}
 \definecolor{gray}{rgb}{0.77,0.77,0.77}
+\definecolor{white}{rgb}{0.255,0.255,0.255}
 \newcommand*{\firstnamefont}{\fontsize{25}{27}\sffamily\mdseries\upshape}
 \newcommand*{\familynamefont}{\firstnamefont}
 \newcommand*{\titel}{\fontsize{25}{27}\mdseries\upshape}
@@ -108,7 +109,6 @@
 % Vertikaler Strich
 % -------------------------------------------------
 \begin{textblock}{1}(13.5,0)
-	%\color{gray}{\vrule width 0.5ex depth 1\textheight}
 	\color{hellblau}{\vrule width 45.5ex depth 1\textheight}
 \end{textblock}
 
@@ -133,9 +133,9 @@
 \begin{textblock}{4.8}(14,25)
 	\begin{flushleft}
 		\vspace{-3.5cm}
-		{\bfseries \begin{Large}\firstnamefont{\color{schwarz}{\firstname}}~\familynamefont{\color{schwarz}{\familyname}}\end{Large}}\\[.35ex]
+		\color{schwarz}{\bfseries \begin{Large}\firstnamefont{{\firstname}}~\familynamefont{{\familyname}}\end{Large}}\\[.35ex]
 		\small\itshape%
-		\color{schwarz}{\mystreet\\
+		{\mystreet\\
 		\mycity\\[.35ex]
 		\Telefon~\myphone\\
 		\Letter~{\myemail}}

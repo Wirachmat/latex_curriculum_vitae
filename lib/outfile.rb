@@ -7,11 +7,12 @@ module CVOutfile
     # end
     time = Time.new
     date = time.strftime('%Y-%m-%d')
-    contactcsv = contact.gsub('%20', ' ')
-    jobtitlecv = jobtitle.gsub('%20', ' ')
+    contact.gsub!('%20', ' ')
+    jobtitle.gsub!('%20', ' ')
+    jobtitle.gsub!('%26', '&')
     CSV.open('manns_bewerbungen.csv', 'a+') do |csv|
       #datum,firma,stelle,kontakt,email,status
-      csv << ["#{date}","#{company}","#{jobtitlecv}","#{contactcsv}","#{emailaddress}",'Open']
+      csv << ["#{date}","#{company}","#{jobtitle}","#{contact}","#{emailaddress}",'Open']
     end
   end
 end

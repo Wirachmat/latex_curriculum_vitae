@@ -3,7 +3,7 @@
 # Module for creating the entityfile
 module Entityfile
   def self.get_information
-    puts 'What is the jobtitle of your application?'
+    puts 'What is the jobtitle of your application? Escape \&'
     jobtitle = STDIN.gets.chomp
     puts 'Is it a proactive application?'
     proactive = STDIN.gets.chomp
