@@ -14,10 +14,10 @@ task :run do
   FileUtils.rm('entity.tex') if File.exist?('entity.tex')
   contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information
   FileUtils.cd('Cover') do
-    Cover.create_cover
+   Cover.create_cover
   end
   FileUtils.cd('Resume') do
-    CV.create_cv
+   CV.create_cv
   end
   CVEmail.create_email(contact, emailaddress, jobtitle, contact_sex, proactive)
   CVOutfile.add_to_outfile(jobtitle, company, contact, emailaddress)

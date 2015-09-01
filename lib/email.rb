@@ -45,6 +45,6 @@ module CVEmail
 
     attachment = './Bewerbungsunterlagen_Manns.pdf'
 
-    system("evolution mailto:#{emailaddress}?subject=#{subject}\\&body=#{body}\\&attach=#{attachment}")
+    system("thunderbird mailto:#{emailaddress}?subject=#{subject}\\&body=#{body}\\&attach=#{attachment}")
   end
 end
