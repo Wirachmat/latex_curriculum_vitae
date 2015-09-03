@@ -43,4 +43,5 @@ Gem::Specification.new do |spec|
   # spec.add_runtime_dependency 'parseconfig', '~> 1.0', '>= 1.0.6'
   # spec.add_runtime_dependency 'rainbow', '~> 2.0', '>= 2.0.0'
   # spec.add_runtime_dependency 'MannsShared', '~> 0.1', '>= 0.1.8'
+  spec.add_runtime_dependency 'setup', '~> 5.2', '>= 5.2.0'
 end
