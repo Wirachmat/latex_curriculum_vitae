@@ -43,7 +43,10 @@ module CVEmail
     'Meine Bewerbungsunterlagen sind der Mail als Anhang beigefügt.' + "#{crlf}"
     body.gsub!(/ /, "#{space}")
 
-    attachment = './Bewerbungsunterlagen_Manns.pdf'
+    home = Dir.home
+    prefix = "#{home}/.rvm/rubies/default"
+    datadir = "#{prefix}/share"
+    attachment = "#{datadir}/latex_curriculum_vitae/Bewerbungsunterlagen_Manns.pdf"
 
     system("thunderbird mailto:#{emailaddress}?subject=#{subject}\\&body=#{body}\\&attach=#{attachment}")
   end
