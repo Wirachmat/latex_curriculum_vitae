@@ -1,0 +1,29 @@
+---
+prefix: "/home/sascha/.rvm/rubies/ruby-2.2.1"
+bindir: "/home/sascha/.rvm/rubies/ruby-2.2.1/bin"
+libdir: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib"
+datadir: "/home/sascha/.rvm/rubies/ruby-2.2.1/share"
+mandir: "/home/sascha/.rvm/rubies/ruby-2.2.1/share/man"
+docdir: "/home/sascha/.rvm/rubies/ruby-2.2.1/share/doc"
+rbdir: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0"
+sodir: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/x86_64-linux"
+sysconfdir: "/etc"
+localstatedir: "/var"
+libruby: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby"
+librubyver: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0"
+librubyverarch: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/x86_64-linux"
+siteruby: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby"
+siterubyver: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0"
+siterubyverarch: "/home/sascha/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/x86_64-linux"
+rubypath: "/home/sascha/.rvm/rubies/ruby-2.2.1/bin/ruby"
+rubyprog: "/home/sascha/.rvm/rubies/ruby-2.2.1/bin/ruby"
+makeprog: make
+extconfopt: ''
+shebang: ruby
+no_test: true
+no_doc: true
+no_ext: false
+install_prefix: 
+root: 
+installdirs: site
+type: site

@@ -17,12 +17,12 @@ class LatexCurriculumVitae
     contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information
 
     # Create the cover
-    FileUtils.cd('Cover') do
+    FileUtils.cd('data/Cover') do
       Cover.create_cover
     end
 
     # Create the Curriculum Vitae
-    FileUtils.cd('Resume') do
+    FileUtils.cd('data/Resume') do
       CV.create_cv
     end
 
