@@ -1,0 +1,5 @@
+# api_endpoint: http://private-77f5-gemnasium.apiary-mock.com
+api_key: 0f4473f5825f325227eb7a3a9a3425af    # You personal (secret) API key. Get it at https://gemnasium.com/settings/api_access
+project_name: latex_curriculum_vitae    # A name to remember your project.
+project_slug: saigkill/latex_curriculum_vitae               # Unique slug for this project. Get it on the "project settings" page.
+project_branch: master        # /!\ If you don't use git, remove this line
