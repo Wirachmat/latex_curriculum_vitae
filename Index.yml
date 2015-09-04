@@ -1,0 +1,40 @@
+--- 
+name:    latexcurriculumvitae
+version: 0.1.1
+title:   Latexcurriculumvitae
+summary: A program for creating an application
+
+description:
+  It supports creating a application by rendering with LaTEX.
+
+authors:
+  - Sascha Manns <samannsml@directbox.com>
+
+requirements:
+- setup
+- notifier
+- bundler (build)
+- rdoc (build)
+- gem-release (build)
+- rspec (build)
+- simplecov (build)
+- bundler-audir (build)
+- indexer (build)
+- rake (build)
+- test (test)
+
+repositories:
+  upstream: https://github.com/saigkill/latex_curriculum_vitae.git
+
+resources:
+  home: http://saigkill.github.io
+  code: https://github.com/saigkill/latex_curriculum_vitae
+  bugs: http://saigkill-bugs.myjetbrains.com/youtrack
+  issues: http://saigkill-bugs.myjetbrains.com/youtrack
+
+categories:
+  - foo
+
+copyrights:
+  - 2015 Sascha Manns (GPL-3)
+

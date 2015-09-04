@@ -1,4 +1,4 @@
-# PublicanCreatorsVersion
+# latex_curriculum_vitae
 # @author Sascha Manns
 # @abstract Class for maintaining the version number
 #

@@ -1,7 +1,16 @@
+#!/usr/bin/env ruby
 # encoding: utf-8
+# @author Sascha Manns
+# @abstract CV Module for latex_curriculum_vitae
+#
+# Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
+# License: GPL-3
+
+# Dependencies
 
 # Module for creating the CV
 module CV
+  # Create Curriculum Vitae method
   def self.create_cv
     system('xelatex cv_10.tex')
     puts 'First run of xelatex passed'

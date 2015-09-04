@@ -1,6 +1,13 @@
+#!/usr/bin/env ruby
 # encoding: utf-8
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
+# @author Sascha Manns
+# @abstract Main Class for latex_curriculum_vitae
+#
+# Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
+# License: GPL-3
+#$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 
+# Dependencies
 require 'fileutils'
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/entityfile'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/cv'))
@@ -8,23 +15,23 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vit
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/email'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/outfile'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/notifier'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/version'))
 
+# Main Class LatexCurriculumVitae
 class LatexCurriculumVitae
+  # Variables
   home = Dir.home
   prefix = "#{home}/.rvm/rubies/default"
-  bindir = "#{prefix}/bin"
-  libdir = "#{prefix}/lib"
   datadir = "#{prefix}/share"
-  mandir = "#{prefix}/man"
-  docdir = "#{prefix}/share/doc"
-  entitytex = "#{home}/.latex_curriculum_vitae/entity.tex"
-  personaldata = "#{home}/.latex_curriculum_vitae/personal_data.tex"
-  csvout = "#{home}/.latex_curriculum_vitae/job-applications.csv"
+  version = LatexCurriculumVitae::Version::STRING
+  entitytex = "#{home}/.latex_curriculum_vitae-#{version}/entity.tex"
+  personaldata = "#{home}/.latex_curriculum_vitae-#{version}/personal_data.tex"
+  csvout = "#{home}/.latex_curriculum_vitae-#{version}/job-applications.csv"
 
   # Get the needed Information for creating the application
   contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information(entitytex)
 
-  # # Create the cover
+  # Create the cover
   FileUtils.cd("#{datadir}/latex_curriculum_vitae/Cover") do
     Cover.create_cover
   end

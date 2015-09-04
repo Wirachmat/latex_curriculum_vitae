@@ -31,13 +31,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.9', '>= 1.9.6'
   spec.add_development_dependency 'rake', '~> 10.4', '>= 10.4.2'
-  spec.add_development_dependency 'rdoc', '~> 4.2', '>= 4.2.0'
-  spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
   spec.add_development_dependency 'gem-release', '~> 0.7', '>= 0.7.3'
-  spec.add_development_dependency 'rspec', '~> 3.2', '>= 3.2.0'
-  spec.add_development_dependency 'simplecov', '~> 0.10', '>= 0.10.0'
-  spec.add_development_dependency 'ruby-lint', '~> 2.0', '>= 2.0.4'
   spec.add_development_dependency 'bundler-audit', '~> 0.4', '>= 0.4.0'
+  spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
 
   # spec.add_runtime_dependency 'nokogiri', '~> 1.6', '>= 1.6.6.2'
   # spec.add_runtime_dependency 'parseconfig', '~> 1.0', '>= 1.0.6'
@@ -45,4 +41,5 @@ Gem::Specification.new do |spec|
   # spec.add_runtime_dependency 'MannsShared', '~> 0.1', '>= 0.1.8'
   spec.add_runtime_dependency 'setup', '~> 5.2', '>= 5.2.0'
   spec.add_runtime_dependency 'notifier', '~> 0.5', '>= 0.5.1'
+
 end

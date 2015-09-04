@@ -1,7 +1,16 @@
+#!/usr/bin/env ruby
 # encoding: utf-8
+# @author Sascha Manns
+# @abstract CVEmail Module for latex_curriculum_vitae
+#
+# Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
+# License: GPL-3
+
+# Dependencies
 
 # Module for creating the CV
 module CVEmail
+  # Method for creating the email
   def self.create_email(contact, emailaddress, jobtitle, contact_sex, proactive)
     # Hex codes from http://www.obkb.com/dcljr/charstxt.html
     space = '%20'

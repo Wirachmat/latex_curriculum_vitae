@@ -353,7 +353,7 @@ require 'shellwords'
 module Setup
   class Configuration
     RBCONFIG  = ::RbConfig::CONFIG
-    META_CONFIG_FILE = META_EXTENSION_DIR + '/metaconfig'
+    META_CONFIG_FILE = META_EXTENSION_DIR + '/metaconfig.rb.rb'
     def self.options
       @@options ||= []
     end

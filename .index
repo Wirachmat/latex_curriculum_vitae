@@ -1,0 +1,84 @@
+---
+revision: 2013
+type: ruby
+sources:
+- VERSION
+- Index.yml
+authors:
+- name: Sascha Manns
+  email: samannsml@directbox.com
+organizations: []
+requirements:
+- name: setup
+- name: notifier
+- groups:
+  - build
+  development: true
+  name: bundler
+- groups:
+  - build
+  development: true
+  name: rdoc
+- groups:
+  - build
+  development: true
+  name: gem-release
+- groups:
+  - build
+  development: true
+  name: rspec
+- groups:
+  - build
+  development: true
+  name: simplecov
+- groups:
+  - build
+  development: true
+  name: bundler-audir
+- groups:
+  - build
+  development: true
+  name: indexer
+- groups:
+  - build
+  development: true
+  name: rake
+- groups:
+  - test
+  development: true
+  name: test
+conflicts: []
+alternatives: []
+resources:
+- type: home
+  uri: http://saigkill.github.io
+  label: Homepage
+- type: code
+  uri: https://github.com/saigkill/latex_curriculum_vitae
+  label: Source Code
+- type: bugs
+  uri: http://saigkill-bugs.myjetbrains.com/youtrack
+  label: Issue Tracker
+- type: issues
+  uri: http://saigkill-bugs.myjetbrains.com/youtrack
+  label: Issue Tracker
+repositories:
+- name: upstream
+  scm: git
+  uri: https://github.com/saigkill/latex_curriculum_vitae.git
+categories:
+- foo
+copyrights:
+- holder: Sascha Manns
+  year: '2015'
+  license: GPL-3
+customs: []
+paths:
+  lib:
+  - lib
+version: 0.1.1
+name: latexcurriculumvitae
+title: Latexcurriculumvitae
+summary: A program for creating an application
+description: It supports creating a application by rendering with LaTEX.
+date: '2015-09-04'

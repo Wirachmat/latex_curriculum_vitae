@@ -1,9 +1,17 @@
+#!/usr/bin/env ruby
 # encoding: utf-8
+# @author Sascha Manns
+# @abstract Entityfile Module for latex_curriculum_vitae
+#
+# Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
+# License: GPL-3
+
+# Dependencies
 require 'fileutils'
 
 # Module for creating the entityfile
 module Entityfile
-
+  # Method for getting information
   def self.get_information(entitytex)
       resume = `yad --title="Create application" --center --on-top --form \
 --item-separator=, --separator="|" \
@@ -27,6 +35,22 @@ module Entityfile
     [contact, emailaddress, jobtitle, contact_sex, company, proactive]
   end
 
+  # Method for getting information through a real gui
+  def self.get_information_gui(entitytex)
+    # TODO: Extend code for using the gtk GUI
+    require 'gtk2'
+    require 'libglade2'
+    @threads = []
+
+    Gtk.init
+
+    @glade = GladeXML.new('glade/latexcv.glade')
+    @glade.widget_names.each do |name|
+      instance_variable_set("@#{name}".intern, @glade[name])
+    end
+  end
+
+  # Method for creating the entity.tex
   def self.create_file(jobtitle, company, street, city, contact, entitytex)
     FileUtils.rm(entitytex) if File.exist?(entitytex)
     FileUtils.touch(entitytex)
