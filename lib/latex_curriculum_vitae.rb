@@ -24,9 +24,9 @@ class LatexCurriculumVitae
   prefix = "#{home}/.rvm/rubies/default"
   datadir = "#{prefix}/share"
   version = LatexCurriculumVitae::Version::STRING
-  entitytex = "#{home}/.latex_curriculum_vitae-#{version}/entity.tex"
-  personaldata = "#{home}/.latex_curriculum_vitae-#{version}/personal_data.tex"
-  csvout = "#{home}/.latex_curriculum_vitae-#{version}/job-applications.csv"
+  entitytex = "#{home}/.latex_curriculum_vitae/entity.tex"
+  personaldata = "#{home}/.latex_curriculum_vitae/personal_data.tex"
+  csvout = "#{home}/.latex_curriculum_vitae/job-applications.csv"
 
   # Get the needed Information for creating the application
   contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information(entitytex)

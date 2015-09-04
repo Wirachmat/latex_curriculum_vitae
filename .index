@@ -77,8 +77,8 @@ paths:
   lib:
   - lib
 version: 0.1.1
-name: latexcurriculumvitae
-title: Latexcurriculumvitae
+name: latex_curriculum_vitae
+title: Latex_curriculum_vitae
 summary: A program for creating an application
 description: It supports creating a application by rendering with LaTEX.
 date: '2015-09-04'

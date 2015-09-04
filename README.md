@@ -53,7 +53,7 @@ Or just use the Launcher.
   /home/sascha you have to place your username. Also the 2.2.1 has to be match your Rubyversion. So you have to check this first.
   Also you have to modify the email.rb for your needs.
 * /home/sascha/.rvm/rubies/ruby-2.2.1/share/latex_curriculum_vitae: There are placed the LaTEX source files.
-* 
+
 ## The tweaks (LaTEX)
 
 The LaTEX source directory contains that subdirectories:
