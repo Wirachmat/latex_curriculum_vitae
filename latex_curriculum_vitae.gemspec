@@ -3,7 +3,7 @@
 require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'latex_curriculum_vitae/version.rb'))
 
 Gem::Specification.new do |spec|
-  spec.name = 'LatexCurriculumVitae'
+  spec.name = 'latex_curriculum_vitae'
   spec.version = LatexCurriculumVitae::Version::STRING
   spec.authors = 'Sascha Manns'
   spec.email = 'samannsml@directbox.com'
