@@ -25,9 +25,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33210dc2-fb52-464e-b807-7d12e3a32df3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-    </list>
+    <list default="true" id="33210dc2-fb52-464e-b807-7d12e3a32df3" name="Default" comment="" />
     <ignored path="latex_curriculum_vitae.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -414,7 +412,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441466589433</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added email publishing, automatic MANIFEST rebuild">
+      <created>1441466657052</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1441466657052</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack shared="false" url="http://saigkill-bugs.myjetbrains.com/youtrack">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
