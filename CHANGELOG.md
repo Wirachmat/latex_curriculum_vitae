@@ -1,8 +1,9 @@
 # CHANGELOG
 
-## 0.1.2 (2015-09-05)
+## 0.1.2 - 0.1.3 (2015-09-05)
 ### Bugfix
 * The installed gem doesn't use $HOME for sysconfdir
+* fixed color issue
 
 ## 0.1.1 (2015-09-04)
 ### Features

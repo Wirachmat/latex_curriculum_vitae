@@ -212,6 +212,6 @@ end
 
 desc 'Run release & deployment'
 task :default => [:setup, :create_desktop] do
-  puts 'Finished Setup'.color(:green)
+  puts 'Finished Setup'
 end
 
