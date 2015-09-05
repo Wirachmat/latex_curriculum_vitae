@@ -23,6 +23,7 @@ task :make_release do
 
   puts 'Updating MANIFEST'
   system('mast -u && mast -u')
+  system('git add MANIFEST')
   puts 'done'
   puts 'Updating workspace'
   system('git add .idea/*')

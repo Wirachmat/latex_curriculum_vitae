@@ -10,7 +10,6 @@ pkg/LatexCurriculumVitae-0.1.1.gem
 Gemfile
 Index.yml
 Rakefile
-post-install.rb
 CONTRIBUTING.md
 data/latex_curriculum_vitae/Appendix/Bibliography/bibliography1.bib
 data/latex_curriculum_vitae/Appendix/Certificates/Zertifikat_Sascha_Manns1.pdf
@@ -68,4 +67,3 @@ Gemfile.lock
 VERSION
 etc/personal_data.tex
 CHANGELOG.md
-pre-install.rb
