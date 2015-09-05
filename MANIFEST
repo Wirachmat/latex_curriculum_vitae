@@ -7,6 +7,7 @@ bin/latexcv.rb
 setup.rb
 SetupConfig
 pkg/LatexCurriculumVitae-0.1.1.gem
+pkg/latex_curriculum_vitae-0.1.1.gem
 Gemfile
 Index.yml
 Rakefile
