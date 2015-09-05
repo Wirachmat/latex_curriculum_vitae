@@ -89,23 +89,23 @@ The LaTEX source directory contains that subdirectories:
 
 * Resume (the Curriculum Vitae itself). The resume includes the following:
      
-     \addbibresource{../Appendix/Bibliography/bibliography1.bib}
+        \addbibresource{../Appendix/Bibliography/bibliography1.bib}
 
-     \includepdf{../Cover/Cover}
+        \includepdf{../Cover/Cover}
 
-     \includegraphics[scale=0.7]{../Pictures/signatur.png}
+        \includegraphics[scale=0.7]{../Pictures/signatur.png}
 
-     \begin{figure}  
-       \includegraphics[page=1,scale=0.7,angle=180]{../Appendix/Employers_Reference/hays.pdf}
-     \end{figure}
-     \includepdf{../Appendix/Study/foo}
-     \includepdf{../Appendix/Certificates/thm-webeng1}
-     \includepdf{../Appendix/Employers_Reference/openslx}
-     \includepdf{../Appendix/Employers_Reference/openslx1}
-     \includepdf{../Appendix/Certificates/kompetenzpass12013}
-     \includepdf{../Appendix/Certificates/Zertifikat_Sascha_Manns1}
-     \includepdf{../Appendix/Employers_Reference/wtg}
-     \includepdf{../Appendix/First_References/ihk}
+        \begin{figure}  
+          \includegraphics[page=1,scale=0.7,angle=180]{../Appendix/Employers_Reference/hays.pdf}
+        \end{figure}
+        \includepdf{../Appendix/Study/foo}
+        \includepdf{../Appendix/Certificates/thm-webeng1}
+        \includepdf{../Appendix/Employers_Reference/openslx}
+        \includepdf{../Appendix/Employers_Reference/openslx1}
+        \includepdf{../Appendix/Certificates/kompetenzpass12013}
+        \includepdf{../Appendix/Certificates/Zertifikat_Sascha_Manns1}
+        \includepdf{../Appendix/Employers_Reference/wtg}
+        \includepdf{../Appendix/First_References/ihk}
 
 You can modify all the LaTEX sources to match your life.
 
