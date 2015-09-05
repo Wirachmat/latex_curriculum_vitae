@@ -49,6 +49,7 @@ class LatexCurriculumVitae
 
   # Start evince to check the output file
   system("evince #{datadir}/latex_curriculum_vitae/Bewerbungsunterlagen_Manns.pdf")
+  system("cp #{datadir}/latex_curriculum_vitae/Bewerbungsunterlagen_Manns.pdf #{home}/.latex_curriculum_vitae")
 
   # Inform about creation is done
   Notifier.run

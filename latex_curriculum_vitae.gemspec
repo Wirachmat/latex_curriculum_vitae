@@ -32,9 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.9', '>= 1.9.6'
   spec.add_development_dependency 'rake', '~> 10.4', '>= 10.4.2'
   spec.add_development_dependency 'gem-release', '~> 0.7', '>= 0.7.3'
-  spec.add_development_dependency 'bundler-audit', '~> 0.4', '>= 0.4.0'
   spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
-  spec.add_development_dependency 'rubocop', '~> 0.31', '>= 0.31.0'
   spec.add_development_dependency 'mast', '~> 1.4', '>= 1.4.0'
   spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
 

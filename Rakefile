@@ -12,40 +12,6 @@ YARD::Rake::YardocTask.new do |t|
   t.files = %w('lib/**/*.rb', '-', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'CONTRIBUTING.md', 'MANIFEST', 'LICENSE', 'README.md')
 end
 
-# Rubocop
-require 'rubocop/rake_task'
-desc 'Run RuboCop on the lib directory'
-RuboCop::RakeTask.new(:rubocop) do |task|
-  task.patterns = ['lib/**/*.rb']
-  # only show the files with failures
-  task.formatters = ['files']
-  # don't abort rake on failure
-  task.fail_on_error = false
-end
-
-require 'bundler/audit/cli'
-namespace :bundle_audit do
-  desc 'Update bundle-audit database'
-  task :update do
-    Bundler::Audit::CLI.new.update
-  end
-
-  desc 'Check gems for vulns using bundle-audit'
-  task :check do
-    Bundler::Audit::CLI.new.check
-  end
-
-  desc 'Update vulns database and check gems using bundle-audit'
-  task :run do
-    Rake::Task['bundle_audit:update'].invoke
-    Rake::Task['bundle_audit:check'].invoke
-  end
-end
-
-task :bundle_audit do
-  Rake::Task['bundle_audit:run'].invoke
-end
-
 require 'fileutils'
 desc 'Prepares for release'
 task :make_release do
@@ -55,9 +21,14 @@ task :make_release do
   time = Time.new
   date = time.strftime('%Y-%m-%d')
 
+  puts 'Updating MANIFEST'
+  system('mast -u && mast -u')
+  puts 'done'
+  puts 'Updating workspace'
   system('git add .idea/*')
   system('git commit -m "Updated workspace"')
   puts 'done'
+  puts 'Making release'
   system('rake release')
 
   FileUtils.cd(target) do
@@ -84,13 +55,15 @@ latex_curriculum_vitae is a Ruby based generator for LaTEX job applications:
 If you give it a try just do:
 
      gem install latex_curriculum_vitae
-     cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae
-    ./setup.rb
+     cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
+     ./setup.rb config
+     ./setup.rb install
 
 # Dependencies
 
 * pdflatex
 * xelatex
+* yad
 
 # Using the Gem
 
@@ -100,92 +73,122 @@ To use the gem type in the console
 
 or use the launcher.
 
-# Download last deployed Linux packages
-## deb
-[![Download](https://api.bintray.com/packages/saigkill/deb/MannsShared/images/download.svg) ](https://bintray.com/saigkill/deb/MannsShared/_latestVersion)
-##rpm
-[![Download](https://api.bintray.com/packages/saigkill/rpm/MannsShared/images/download.svg) ](https://bintray.com/saigkill/rpm/MannsShared/_latestVersion)
-
-# All Downloads for MannsShared:
-[![downloads-all](https://img.shields.io/gem/dt/MannsShared.svg)](https://rubygems.org/gems/MannsShared)
+# All Downloads for latex_curriculum_vitae:
+[![downloads-all](https://img.shields.io/gem/dt/latex_curriculum_vitae.svg)](https://rubygems.org/gems/latex_curriculum_vitae)
 
 # References
-  * Projects home: [https://github.com/saigkill/MannsShared](https://github.com/saigkill/MannsShared)
-  * Developer documentation: [http://www.rubydoc.info/gems/MannsShared](http://www.rubydoc.info/gems/MannsShared)
+  * Projects home: [https://github.com/saigkill/latex_curriculum_vitae](https://github.com/saigkill/latex_curriculum_vitae)
+  * Developer documentation: [http://www.rubydoc.info/gems/latex_curriculum_vitae](http://www.rubydoc.info/gems/latex_curriculum_vitae)
   * Bug reports: [http://saigkill-bugs.myjetbrains.com/youtrack/issues](http://saigkill-bugs.myjetbrains.com/youtrack/issues)
 
 # What has be done in this version #{version}?
   * Basic method integration
 
 # Donations
-[![MannsShared](https://pledgie.com/campaigns/29554.png?skin_name=chrome)](https://pledgie.com/campaigns/29554)
+[![latex_curriculum_vitae](https://pledgie.com/campaigns/30094.png?skin_name=chrome)](https://pledgie.com/campaigns/30094)
 [![wishlist](http://tsv-neuss.de/cms/upload/News-Bilder/amazon1.png)](http://www.amazon.de/registry/wishlist/D75HOEQ00BDD)
 EOF
   end
   FileUtils.cd(target) do
-    FileUtils.touch "#{date}-MannsShared-#{version}-released-de.md"
-    File.write "#{date}-MannsShared-#{version}-released-de.md", <<EOF
+    FileUtils.touch "#{date}-latex_curriculum_vitae-#{version}-released-de.md"
+    File.write "#{date}-latex_curriculum_vitae-#{version}-released-de.md", <<EOF
 ---
 layout: post
-title: "MannsShared #{version} - Eine Library für Standardaufgaben"
-description: "Eine Library für Standardaufgaben"
+title: "latex_curriculum_vitae #{version} - Eine Generator für LaTEX Bewerbungen"
+description: "Ein Gem zum generieren von Bewerbungen"
 category: "programming"
-tags: [ruby, opensource, libraries, de-DE]
+tags: [ruby, opensource, latex_curriculum_vitae, de-DE]
 ---
 {% include JB/setup %}
 
 # Introduction
-MannsShared ist eine Ruby Bibliothek für Standardaufgaben wie:
+latex_curriculum_vitae generiert eine Bewerbung mit den folgenden Schritten:
 
-* suchen und ersetzen eines Inhaltes einer Datei,
-* checken ob ein Zielverzeichnis bereits existiert,
-* checken ob ein Konfigurationsfile verfügbar ist und
-* entfernen einer Node eines XML-Files.
+* es fragt nach Informationen wie Name des Kontaktes, der Firma usw.,
+* es generiert daraus eine Bewerbungsmappe mit Cover, Lebenslauf und Anhängen,
+* es generiert eine Email mit einem erweiterbaren Standardtext,
+* es trägt die Informationen in eine CSV Tabelle ein.
 
 # Installation
 Zur installation genügt ein:
 
-     gem install MannsShared
+     gem install latex_curriculum_vitae
+     cd /path/to/gem (Falls RVM benutzt wird z.B. ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
+     ./setup.rb config
+     ./setup.rb install
 
 # Abhängigkeiten
 
-* dir
-* nokogiri
+* pdflatex
+* xelatex
+* yad
 
-# Benutzung des Gem
-Fügen Sie einfach folgendes Ihrem Sourcecode hinzu:
+# Benutzung des Gems
+Geben Sie in der Konsole ein:
 
-     requires 'MannsShared'
+     latexcv.rb
 
-Jetzt können Sie auf die Methoden zugreifen. Lesen Sie hierzu die Dokumentation.
+oder benutzen Sie den Programmstarter.
 
-# Herunterladen der zuletzt veröffentlichten Linux packages
-## deb
-[![Download](https://api.bintray.com/packages/saigkill/deb/MannsShared/images/download.svg) ](https://bintray.com/saigkill/deb/MannsShared/_latestVersion)
-##rpm
-[![Download](https://api.bintray.com/packages/saigkill/rpm/MannsShared/images/download.svg) ](https://bintray.com/saigkill/rpm/MannsShared/_latestVersion)
-
-# Gesamtdownloads für MannsShared:
-[![downloads-all](https://img.shields.io/gem/dt/MannsShared.svg)](https://rubygems.org/gems/MannsShared)
+# Gesamtdownloads für latex_curriculum_vitae:
+[![downloads-all](https://img.shields.io/gem/dt/latex_curriculum_vitae.svg)](https://rubygems.org/gems/latex_curriculum_vitae)
 
 # Referenzen
-  * Projekthomepage: [https://github.com/saigkill/MannsShared](https://github.com/saigkill/MannsShared)
-  * Entwicklerdokumentation: [http://www.rubydoc.info/gems/MannsShared](http://www.rubydoc.info/gems/MannsShared)
+  * Projekthomepage: [https://github.com/saigkill/latex_curriculum_vitae](https://github.com/saigkill/latex_curriculum_vitae)
+  * Entwicklerdokumentation: [http://www.rubydoc.info/gems/latex_curriculum_vitae](http://www.rubydoc.info/gems/latex_curriculum_vitae)
   * Bugreports: [http://saigkill-bugs.myjetbrains.com/youtrack/issues](http://saigkill-bugs.myjetbrains.com/youtrack/issues)
 
 # Was ist neu in der version #{version}?
   * Basic method integration
 
 # Donations
-[![MannsShared](https://pledgie.com/campaigns/29554.png?skin_name=chrome)](https://pledgie.com/campaigns/29554)
+[![latex_curriculum_vitae](https://pledgie.com/campaigns/29554.png?skin_name=chrome)](https://pledgie.com/campaigns/29554)
 [![wishlist](http://tsv-neuss.de/cms/upload/News-Bilder/amazon1.png)](http://www.amazon.de/registry/wishlist/D75HOEQ00BDD)
 EOF
   end
   puts 'Prepared your Blogpost. Please add the changes of this release'
+  puts 'Now ready for social media posting'
+
+  # Create email to ruby-talk
+  space = '%20'
+  crlf = '%0D%0A'
+  subject = "latex_curriculum_vitae #{version} released"
+  subject.gsub!(/ /, "#{space}")
+  body = 'Hello Ruby list,' + "#{crlf}" + "#{crlf}" +
+      "i would like to announce the latex_curriculum_vitae gem in version #{version}." + "#{crlf}" + "#{crlf}" +
+      "What happend in version #{version}?" + "#{crlf}" +
+      '* Its the initial release' + "#{crlf}" +
+      '* Fixed LCV 1-4' + "#{crlf}" + "#{crlf}" +
+      'What is latex_curriculum_vitae?' + "#{crlf}" + "#{crlf}" +
+      'It is a Ruby based generator for LaTEX job applications. It does:' + "#{crlf}" + "#{crlf}" +
+      '* asks for information like jobtitle, contact, company and so far,' + "#{crlf}" +
+      '* generates the resume with a cover' + "#{crlf}" +
+      '* generates an email with the contacts email address and a predefined text and' + "#{crlf}" +
+      '* saves the information in a csv file.' + "#{crlf}" + "#{crlf}" +
+      'Installation:'+ "#{crlf}" + "#{crlf}" +
+      '    gem install latex_curriculum_vitae' + "#{crlf}" +
+      '    cd /path/to/gem \(In case of using RVM anything like ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae\)' + "#{crlf}" + "#{crlf}" +
+      '    ./setup.rb config' + "#{crlf}" +
+      '    ./setup.rb install' + "#{crlf}" + "#{crlf}" +
+      'Dependencies:'+ "#{crlf}" + "#{crlf}" +
+      '* pdflatex'+ "#{crlf}" +
+      '* xelatex' + "#{crlf}" +
+      '* yad' + "#{crlf}" + "#{crlf}" +
+      'Using the gem' + "#{crlf}" + "#{crlf}" +
+      'To use the gem just type in the console:' + "#{crlf}" + "#{crlf}" +
+      '    latexcv.rb' + "#{crlf}" + "#{crlf}" +
+      'or use the launcher.' + "#{crlf}" + "#{crlf}" +
+      'References:' + "#{crlf}" +
+      'Issue tracker: http://saigkill-bugs.myjetbrains.com/youtrack/issues' + "#{crlf}" +
+      'Home: https://github.com/saigkill/latex_curriculum_vitae' + "#{crlf}" +
+      'Greetings Sascha'
+  body.gsub!(/ /, "#{space}")
+  system("thunderbird mailto:ruby-talk@ruby-lang.org?subject=#{subject}\\&body=#{body}")
 end
 
-task :default do
-
+desc 'Run release & deployment'
+task :default => [:make_release] do
+  puts 'Finished Setup'.color(:green)
 end
 
 require 'etc'
