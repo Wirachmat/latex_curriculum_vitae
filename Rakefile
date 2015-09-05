@@ -182,6 +182,7 @@ EOF
       'Greetings Sascha'
   body.gsub!(/ /, "#{space}")
   system("thunderbird mailto:ruby-talk@ruby-lang.org?subject=#{subject}\\&body=#{body}")
+  system('rm pkg/*')
 end
 
 require 'etc'
