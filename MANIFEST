@@ -1,6 +1,5 @@
 #!mast *
 LICENSE
-SetupReceipt
 latex_curriculum_vitae.gemspec
 CODE_OF_CONDUCT.md
 bin/latexcv.rb
