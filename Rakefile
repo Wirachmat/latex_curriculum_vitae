@@ -56,8 +56,7 @@ If you give it a try just do:
 
      gem install latex_curriculum_vitae
      cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
-     ./setup.rb config
-     ./setup.rb install
+     rake
 
 # Dependencies
 
@@ -114,8 +113,7 @@ Zur installation genügt ein:
 
      gem install latex_curriculum_vitae
      cd /path/to/gem (Falls RVM benutzt wird z.B. ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
-     ./setup.rb config
-     ./setup.rb install
+     rake
 
 # Abhängigkeiten
 
@@ -168,8 +166,7 @@ EOF
       'Installation:'+ "#{crlf}" + "#{crlf}" +
       '    gem install latex_curriculum_vitae' + "#{crlf}" +
       '    cd /path/to/gem \(In case of using RVM anything like ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae\)' + "#{crlf}" + "#{crlf}" +
-      '    ./setup.rb config' + "#{crlf}" +
-      '    ./setup.rb install' + "#{crlf}" + "#{crlf}" +
+      '    rake' + "#{crlf}" + "#{crlf}" +
       'Dependencies:'+ "#{crlf}" + "#{crlf}" +
       '* pdflatex'+ "#{crlf}" +
       '* xelatex' + "#{crlf}" +
@@ -186,29 +183,33 @@ EOF
   system("thunderbird mailto:ruby-talk@ruby-lang.org?subject=#{subject}\\&body=#{body}")
 end
 
-desc 'Run release & deployment'
-task :default => [:make_release] do
-  puts 'Finished Setup'.color(:green)
-end
-
 require 'etc'
 require 'fileutils'
 desc 'Create Desktop files'
 task :create_desktop do
-  home = Dir.home
-  latexcvdesktop = "#{home}/.local/share/applications/latexcv.desktop"
-  latexcvico = File.expand_path(File.join(File.dirname(__FILE__), 'bin/', 'arbeitsagentur.png'))
-  latexcvbin = File.expand_path(File.join(File.dirname(__FILE__), 'bin/', 'latexcv.rb'))
-  FileUtils.rm(latexcvdesktop) if File.exists?(latexcvdesktop)
-  puts 'Creating Desktop file for LatexCurriculumVitae'
-  FileUtils.touch "#{latexcvdesktop}"
-  File.write "#{latexcvdesktop}", <<EOF
+  prefix = "#{Dir.home}/.rvm/rubies/default"
+  datadir = "#{prefix}/share"
+  desktopfile = "#{Dir.home}/.local/share/applications/latex_curriculum_vitae.desktop"
+  FileUtils.touch(desktopfile)
+  File.write "#{desktopfile}", <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=LatexCurriculumVitae
-Exec=#{latexcvbin}
-Icon=#{latexcvico}
+Name=Job-Application Creator
+Exec=latexcv.rb
+Icon="#{datadir}/latex_curriculum_vitae/Pictures/arbeitsagentur.png"
 EOF
+end
+
+desc 'Setup'
+task :setup do
+  system('./setup uninstall --force')
+  system('./setup.rb config')
+  system('./setup.rb install')
+end
+
+desc 'Run release & deployment'
+task :default => [:setup, :create_desktop] do
+  puts 'Finished Setup'.color(:green)
 end
 

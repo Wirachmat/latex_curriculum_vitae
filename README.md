@@ -31,8 +31,7 @@ The installation is very easy.
 
     gem install latex_curriculum_vitae
     cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
-    ./setup.rb config
-    ./setup.rb install
+    rake
 
 You have to run the setup after each gem update.
 
