@@ -12,7 +12,7 @@
 | documentation                 | http://www.rubydoc.info/gems/latex_curriculum_vitae                                                                                                                                    |
 | Bugreports & Feature requests | http://saigkill-bugs.myjetbrains.com/youtrack/issues                                                                                                                              |
 | authors blog                  | http://saigkill.github.io                                                                                                                                                         |
-| openhub statistics            | https://www.openhub.net/l/latex_curriculum_vitae                                                                                                                                       |
+| openhub statistics            | https://www.openhub.net/p/latex_curriculum_vitae                                                                                                                                       |
 | donations                     | [![pledgie](https://pledgie.com/campaigns/30094.png?skin_name=chrome)](https://pledgie.com/campaigns/30094)                                                                         |
 | donations                     | [![gratipay](http://img.shields.io/gratipay/saigkill.svg)](https://gratipay.com/~saigkill/)                                                                                         |
 | donations                     | [![amazon](http://tsv-neuss.de/cms/upload/News-Bilder/amazon1.png)](http://www.amazon.de/registry/wishlist/D75HOEQ00BDD)                                                            |

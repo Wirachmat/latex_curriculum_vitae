@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = 'Sascha Manns'
   spec.email = 'samannsml@directbox.com'
 
-  spec.summary = ['A program for creating an application']
+  spec.summary = ['A program for creating an job application']
   spec.description = 'It supports creating a application by rendering with LaTEX.'
 
   spec.homepage = 'https://github.com/saigkill/latex_curriculum_vitae'
@@ -35,11 +35,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler-audit', '~> 0.4', '>= 0.4.0'
   spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
   spec.add_development_dependency 'rubocop', '~> 0.31', '>= 0.31.0'
+  spec.add_development_dependency 'mast', '~> 1.4', '>= 1.4.0'
+  spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
 
-  # spec.add_runtime_dependency 'nokogiri', '~> 1.6', '>= 1.6.6.2'
-  # spec.add_runtime_dependency 'parseconfig', '~> 1.0', '>= 1.0.6'
-  # spec.add_runtime_dependency 'rainbow', '~> 2.0', '>= 2.0.0'
-  # spec.add_runtime_dependency 'MannsShared', '~> 0.1', '>= 0.1.8'
   spec.add_runtime_dependency 'setup', '~> 5.2', '>= 5.2.0'
   spec.add_runtime_dependency 'notifier', '~> 0.5', '>= 0.5.1'
 
