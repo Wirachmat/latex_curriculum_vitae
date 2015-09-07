@@ -3,7 +3,6 @@ LICENSE
 latex_curriculum_vitae.gemspec
 CODE_OF_CONDUCT.md
 bin/latexcv.rb
-setup.rb
 SetupConfig
 Gemfile
 Index.yml
@@ -55,7 +54,6 @@ lib/latex_curriculum_vitae/cover.rb
 lib/latex_curriculum_vitae/cv.rb
 lib/latex_curriculum_vitae/email.rb
 lib/latex_curriculum_vitae/entityfile.rb
-lib/latex_curriculum_vitae/glade/latexcv.glade
 lib/latex_curriculum_vitae/notifier.rb
 lib/latex_curriculum_vitae/outfile.rb
 lib/latex_curriculum_vitae/version.rb

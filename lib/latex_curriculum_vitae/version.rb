@@ -15,7 +15,7 @@ class LatexCurriculumVitae
     # Minor version.
     MINOR = 1
     # Patchlevel
-    PATCH = 3
+    PATCH = 4
     # Buildversion. Mostly 0
     BUILD = 0
     # @note This will be shown by PublicanCreatorsVersion::Version::STRING

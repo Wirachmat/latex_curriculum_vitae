@@ -34,10 +34,6 @@ requirements:
 - groups:
   - build
   development: true
-  name: bundler-audir
-- groups:
-  - build
-  development: true
   name: indexer
 - groups:
   - build
@@ -67,7 +63,10 @@ repositories:
   scm: git
   uri: https://github.com/saigkill/latex_curriculum_vitae.git
 categories:
-- foo
+- latex
+- linux
+- ruby
+- curriculum vitae
 copyrights:
 - holder: Sascha Manns
   year: '2015'
@@ -76,9 +75,9 @@ customs: []
 paths:
   lib:
   - lib
-version: 0.1.1
+version: 0.1.4
 name: latex_curriculum_vitae
 title: Latex_curriculum_vitae
 summary: A program for creating an application
 description: It supports creating a application by rendering with LaTEX.
-date: '2015-09-04'
+date: '2015-09-07'

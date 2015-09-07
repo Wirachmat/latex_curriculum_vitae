@@ -1,7 +1,7 @@
 --- 
-name:    latexcurriculumvitae
-version: 0.1.1
-title:   Latexcurriculumvitae
+name:    latex_curriculum_vitae
+version: 0.1.4
+title:   Latex_curriculum_vitae
 summary: A program for creating an application
 
 description:
@@ -18,7 +18,6 @@ requirements:
 - gem-release (build)
 - rspec (build)
 - simplecov (build)
-- bundler-audir (build)
 - indexer (build)
 - rake (build)
 - test (test)
@@ -33,7 +32,10 @@ resources:
   issues: http://saigkill-bugs.myjetbrains.com/youtrack
 
 categories:
-  - foo
+  - latex
+  - linux
+  - ruby
+  - curriculum vitae
 
 copyrights:
   - 2015 Sascha Manns (GPL-3)
