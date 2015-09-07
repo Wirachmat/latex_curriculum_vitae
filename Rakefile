@@ -166,19 +166,19 @@ EOF
       '* saves the information in a csv file.' + "#{crlf}" + "#{crlf}" +
       'Installation:'+ "#{crlf}" + "#{crlf}" +
       '    gem install latex_curriculum_vitae' + "#{crlf}" +
-      '    cd /path/to/gem \(In case of using RVM anything like ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae\)' + "#{crlf}" + "#{crlf}" +
+      '    cd /path/to/gem \(In case of using RVM anything like ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae\)' + "#{crlf}" +
       '    rake' + "#{crlf}" + "#{crlf}" +
       'Dependencies:'+ "#{crlf}" + "#{crlf}" +
       '* pdflatex'+ "#{crlf}" +
       '* xelatex' + "#{crlf}" +
       '* yad' + "#{crlf}" + "#{crlf}" +
-      'Using the gem' + "#{crlf}" + "#{crlf}" +
+      'Using the gem:' + "#{crlf}" + "#{crlf}" +
       'To use the gem just type in the console:' + "#{crlf}" + "#{crlf}" +
       '    latexcv.rb' + "#{crlf}" + "#{crlf}" +
       'or use the launcher.' + "#{crlf}" + "#{crlf}" +
       'References:' + "#{crlf}" +
-      'Issue tracker: http://saigkill-bugs.myjetbrains.com/youtrack/issues' + "#{crlf}" +
-      'Home: https://github.com/saigkill/latex_curriculum_vitae' + "#{crlf}" +
+      '* Issue tracker: http://saigkill-bugs.myjetbrains.com/youtrack/issues' + "#{crlf}" +
+      '* Home: https://github.com/saigkill/latex_curriculum_vitae' + "#{crlf}" +
       'Greetings Sascha'
   body.gsub!(/ /, "#{space}")
   system("thunderbird mailto:ruby-talk@ruby-lang.org?subject=#{subject}\\&body=#{body}")
