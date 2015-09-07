@@ -205,9 +205,9 @@ end
 
 desc 'Setup'
 task :setup do
-  system('./setup uninstall --force')
-  system('./setup.rb config --sysconfdir=$HOME/.latex_curriculum_vitae')
-  system('./setup.rb install')
+  system('setup uninstall --force')
+  system('setup.rb config --sysconfdir=$HOME/.latex_curriculum_vitae')
+  system('setup.rb install')
 end
 
 desc 'Run release & deployment'
