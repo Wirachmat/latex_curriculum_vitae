@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.1.4 - 0.1.5 (2015-09-08)
+* Automatic updating from the .index
+
 ## 0.1.2 - 0.1.3 (2015-09-05)
 ### Bugfix
 * The installed gem doesn't use $HOME for sysconfdir
