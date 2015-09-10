@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
     File.basename(f)
   }
   spec.require_paths = ['lib']
-  spec.post_install_message = 'Please file bugreports and feature requests on: http://saigkill-bugs.myjetbrains.com/youtrack/issues'
+  spec.post_install_message = '*** Run rake setup to finish the installation *** Please file bugreports and feature requests on: http://saigkill-bugs.myjetbrains.com/youtrack/issues'
 
   spec.platform = Gem::Platform::RUBY
   spec.date = ENV['from'] ? Date.parse(ENV['from']) : Date.today

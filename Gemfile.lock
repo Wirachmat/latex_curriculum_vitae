@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    latex_curriculum_vitae (0.1.5)
+    latex_curriculum_vitae (0.1.6)
       notifier (~> 0.5, >= 0.5.1)
       setup (~> 5.2, >= 5.2.0)
 
