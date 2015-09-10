@@ -48,6 +48,8 @@ Or just use the Launcher.
 
 The resulting PDF and the CSV file are placed in /home/You/.latex_curriculum_vitae.
 
+If you like this little program so don't forget to give this GitHub repository a star :-)
+
 ## The tweaks (Ruby)
 
 * .latex_curriculum_vitae: Contains a personal_data.tex where your personal information is stored. Actually it is used by the Cover.

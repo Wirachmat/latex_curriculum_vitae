@@ -12,6 +12,7 @@ YARD::Rake::YardocTask.new do |t|
   t.files = %w('lib/**/*.rb', '-', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'CONTRIBUTING.md', 'MANIFEST', 'LICENSE', 'README.md')
 end
 
+require 'yaml'
 require 'fileutils'
 desc 'Prepares for release'
 task :make_release do
@@ -20,7 +21,13 @@ task :make_release do
   target = "#{home}/RubymineProjects/saigkill.github.com/_posts"
   time = Time.new
   date = time.strftime('%Y-%m-%d')
+  config = YAML.load_file('Index.yml')
+  oldversion = config[0]['version']
 
+  puts('Updating index')
+  MannsShared.search_replace(oldversion, version, 'Index.yml')
+  MannsShared.search_replace(oldversion, version, 'VERSION')
+  system('index --using VERSION Index.yml')
   puts 'Updating MANIFEST'
   system('mast -u && mast -u')
   system('git add MANIFEST')
