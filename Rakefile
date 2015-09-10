@@ -63,7 +63,7 @@ latex_curriculum_vitae is a Ruby based generator for LaTEX job applications:
 If you give it a try just do:
 
      gem install latex_curriculum_vitae
-     cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
+     cd /path/to/gem (In case of using RVM ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae-#{version})
      rake
 
 # Dependencies
@@ -120,7 +120,7 @@ latex_curriculum_vitae generiert eine Bewerbung mit den folgenden Schritten:
 Zur installation genügt ein:
 
      gem install latex_curriculum_vitae
-     cd /path/to/gem (Falls RVM benutzt wird z.B. ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae)
+     cd /path/to/gem (Falls RVM benutzt wird z.B. ~/.rvm/gems/ruby-2.2.1/gems/latex_curriculum_vitae-#{version})
      rake
 
 # Abhängigkeiten
@@ -212,7 +212,7 @@ end
 
 desc 'Setup'
 task :setup do
-  system('setup uninstall --force')
+  system('setup.rb uninstall --force')
   system('setup.rb config --sysconfdir=$HOME/.latex_curriculum_vitae')
   system('setup.rb install')
 end

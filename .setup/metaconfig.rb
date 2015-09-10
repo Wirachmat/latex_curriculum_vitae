@@ -1,1 +1,0 @@
-set_config_default(sysconfdir, "#{Dir.home}/.latex_curriculum_vitae")
