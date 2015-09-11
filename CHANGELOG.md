@@ -1,10 +1,10 @@
 # CHANGELOG
 
-## 0.1.6 (unreleased)
+## 0.1.5 (unreleased)
 ### Improvements
 * Fixed uninstall routune
 
-## 0.1.4 - 0.1.5 (2015-09-08)
+## 0.1.4 (2015-09-08)
 * Automatic updating from the .index
 
 ## 0.1.2 - 0.1.3 (2015-09-05)
