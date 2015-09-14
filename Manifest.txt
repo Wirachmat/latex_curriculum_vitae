@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/latex_curriculum_vitae
+lib/latex_curriculum_vitae.rb
+test/test_latex_curriculum_vitae.rb

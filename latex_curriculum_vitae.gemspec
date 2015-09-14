@@ -4,7 +4,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'latex_curricu
 
 Gem::Specification.new do |spec|
   spec.name = 'latex_curriculum_vitae'
-  spec.version = LatexCurriculumVitae::Version::STRING
+  spec.version = '0.1.2'
   spec.authors = 'Sascha Manns'
   spec.email = 'samannsml@directbox.com'
 
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = 'It supports creating a application by rendering with LaTEX.'
 
   spec.homepage = 'https://github.com/saigkill/latex_curriculum_vitae'
-  spec.license = 'GPL-3'
+  spec.license = 'MIT'
   spec.metadata = { 'issue_tracker' => 'http://saigkill-bugs.myjetbrains.com/youtrack/issues' }
 
   spec.files = `git ls-files -z`.split("\x0").reject { |f|
@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
   spec.add_development_dependency 'mast', '~> 1.4', '>= 1.4.0'
   spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
+  spec.add_development_dependency 'hoe', '~> 3.14', '>= 3.14.1'
 
   spec.add_runtime_dependency 'setup', '~> 5.2', '>= 5.2.0'
   spec.add_runtime_dependency 'notifier', '~> 0.5', '>= 0.5.1'
