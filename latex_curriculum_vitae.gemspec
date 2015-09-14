@@ -1,10 +1,10 @@
 # rubocop:disable Style/FileName
 # rubocop:disable Metrics/LineLength
-require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'latex_curriculum_vitae/version.rb'))
+#require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'latex_curriculum_vitae/version.rb'))
 
 Gem::Specification.new do |spec|
   spec.name = 'latex_curriculum_vitae'
-  spec.version = LatexCurriculumVitae::Version::STRING
+  spec.version = ENV['VERSION']
   spec.authors = 'Sascha Manns'
   spec.email = 'samannsml@directbox.com'
 
@@ -35,6 +35,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
   spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
   spec.add_development_dependency 'hoe', '~> 3.14', '>= 3.14.1'
+  spec.add_development_dependency 'hoe-rubygems', '~> 1.0', '>= 1.0.0'
+  spec.add_development_dependency 'hoe-version', '~> 1.2', '>= 1.2.0'
+  spec.add_development_dependency 'hoe-seattlerb', '~> 1.3', '>= 1.3.4'
+  spec.add_development_dependency 'hoe-git', '~> 1.6', '>= 1.6.0'
+  spec.add_development_dependency 'hoe-deveiate', '~> 0.7', '>= 0.7.0'
 
   spec.add_runtime_dependency 'setup', '~> 5.2', '>= 5.2.0'
   spec.add_runtime_dependency 'notifier', '~> 0.5', '>= 0.5.1'

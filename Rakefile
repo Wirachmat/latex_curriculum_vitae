@@ -14,11 +14,19 @@ require 'hoe'
 # Hoe.plugin :rcov
 Hoe.plugin :rdoc
 Hoe.plugin :rubygems
-# Hoe.plugin :website
+Hoe.plugin :bundler
+Hoe.plugin :version
+Hoe.plugin :seattlerb
+Hoe.plugin :git
+Hoe.plugin :deveiate
+Hoe.plugin :doofus
+Hoe.plugin :email
+Hoe.plugin :gem_prelude_sucks
+Hoe.plugin :website
 
-Hoe.spec 'latex_curriculum_vitae' do |spec|
-  spec.developer('Sascha Manns', 'samannsml@directbox.com')
-  spec.license 'MIT' # this should match the license in the README
+Hoe.spec 'latex_curriculum_vitae' do
+  developer('Sascha Manns', 'samannsml@directbox.com')
+  license 'MIT' # this should match the license in the README
 end
 
 require 'etc'
@@ -55,7 +63,7 @@ require 'yaml'
 require 'fileutils'
 desc 'Prepares for release'
 task :make_release do
-  version = LatexCurriculumVitae::Version::STRING
+  version = ENV['VERSION']
   home = Dir.home
   target = "#{home}/RubymineProjects/saigkill.github.com/_posts"
   time = Time.new
@@ -63,17 +71,19 @@ task :make_release do
   config = YAML.load_file('Index.yml')
   oldversion = config[0]['version']
 
+  system('rake doofus')
   puts('Updating index')
   MannsShared.search_replace(oldversion, version, 'Index.yml')
   MannsShared.search_replace(oldversion, version, 'VERSION')
   system('index --using VERSION Index.yml')
   puts 'Updating Manifest'
-  system('rake check_manifest')
+  system('rake git:manifest')
   system('git add Manifest.txt')
   puts 'done'
   puts 'Updating workspace'
   system('git add .idea/*')
   system('git commit -m "Updated workspace"')
+  system('git push')
   puts 'done'
   puts 'Making release'
   system("rake release VERSION=#{version}")
@@ -197,7 +207,7 @@ EOF
   # Create email to ruby-talk
   space = '%20'
   crlf = '%0D%0A'
-  subject = "latex_curriculum_vitae #{version} released"
+  subject = "[ANN] latex_curriculum_vitae #{version} released"
   subject.gsub!(/ /, "#{space}")
   body = 'Hello Ruby list,' + "#{crlf}" + "#{crlf}" +
       "i would like to announce the latex_curriculum_vitae gem in version #{version}." + "#{crlf}" + "#{crlf}" +

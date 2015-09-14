@@ -11,6 +11,8 @@ GEM
     gem-release (0.7.4)
     hoe (3.14.1)
       rake (>= 0.8, < 11.0)
+    hoe-rubygems (1.0.0)
+    hoe-version (1.2.0)
     indexer (0.3.1)
     notifier (0.5.1)
     rake (10.4.2)
@@ -24,6 +26,8 @@ DEPENDENCIES
   bundler (~> 1.9, >= 1.9.6)
   gem-release (~> 0.7, >= 0.7.3)
   hoe (~> 3.14, >= 3.14.1)
+  hoe-rubygems (~> 1.0, >= 1.0.0)
+  hoe-version (~> 1.2, >= 1.2.0)
   indexer (~> 0.3, >= 0.3.1)
   latex_curriculum_vitae!
   rake (~> 10.4, >= 10.4.2)
