@@ -56,8 +56,6 @@ module CVEmail
     prefix = "#{home}/.rvm/rubies/default"
     datadir = "#{prefix}/share"
     attachment = "#{datadir}/latex_curriculum_vitae/Bewerbungsunterlagen_Manns.pdf"
-    # thunderbird -compose "to='john@example.com,kathy@example.com',cc='britney@example.com',subject='dinner',body='How about dinner tonight?',attachment='C:\temp\info.doc,C:\temp\food.doc'"
-    system("thunderbird -compose \"to='#{emailaddress}', subject='#{subject}', body='#{body}', attachment='#{attachment}'\"")
-    #system("thunderbird mailto:#{emailaddress}?subject=#{subject}\\&body=#{body}\\&attach=#{attachment}")
+    system("thunderbird mailto:#{emailaddress}?subject=#{subject}\\&body=#{body}\\&attach=#{attachment}")
   end
 end
