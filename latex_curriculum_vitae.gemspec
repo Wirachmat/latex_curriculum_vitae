@@ -4,7 +4,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'latex_curricu
 
 Gem::Specification.new do |spec|
   spec.name = 'latex_curriculum_vitae'
-  spec.version = '0.1.2'
+  spec.version = LatexCurriculumVitae::Version::STRING
   spec.authors = 'Sascha Manns'
   spec.email = 'samannsml@directbox.com'
 
@@ -33,7 +33,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.4', '>= 10.4.2'
   spec.add_development_dependency 'gem-release', '~> 0.7', '>= 0.7.3'
   spec.add_development_dependency 'indexer', '~> 0.3', '>= 0.3.1'
-  spec.add_development_dependency 'mast', '~> 1.4', '>= 1.4.0'
   spec.add_development_dependency 'yard', '~> 0.8', '>= 0.8.7.6'
   spec.add_development_dependency 'hoe', '~> 3.14', '>= 3.14.1'
 

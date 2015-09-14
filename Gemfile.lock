@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    latex_curriculum_vitae (0.1.2)
+    latex_curriculum_vitae (0.1.5)
       notifier (~> 0.5, >= 0.5.1)
       setup (~> 5.2, >= 5.2.0)
 
@@ -12,7 +12,6 @@ GEM
     hoe (3.14.1)
       rake (>= 0.8, < 11.0)
     indexer (0.3.1)
-    mast (1.4.0)
     notifier (0.5.1)
     rake (10.4.2)
     setup (5.2.0)
@@ -27,7 +26,6 @@ DEPENDENCIES
   hoe (~> 3.14, >= 3.14.1)
   indexer (~> 0.3, >= 0.3.1)
   latex_curriculum_vitae!
-  mast (~> 1.4, >= 1.4.0)
   rake (~> 10.4, >= 10.4.2)
   yard (~> 0.8, >= 0.8.7.6)
 

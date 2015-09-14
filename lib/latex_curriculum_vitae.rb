@@ -15,6 +15,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vit
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/email'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/outfile'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/notifier'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'latex_curriculum_vitae/version'))
 
 # Main Class LatexCurriculumVitae
 class LatexCurriculumVitae
@@ -22,11 +23,11 @@ class LatexCurriculumVitae
   home = Dir.home
   prefix = "#{home}/.rvm/rubies/default"
   datadir = "#{prefix}/share"
+  version = LatexCurriculumVitae::Version::STRING
   entitytex = "#{home}/.latex_curriculum_vitae/entity.tex"
   personaldata = "#{home}/.latex_curriculum_vitae/personal_data.tex"
   csvout = "#{home}/.latex_curriculum_vitae/job-applications.csv"
-  VERSION = '0.1.5'
-  version = VERSION
+  VERSION = version
 
   # Get the needed Information for creating the application
   contact, emailaddress, jobtitle, contact_sex, company, proactive = Entityfile.get_information(entitytex)
