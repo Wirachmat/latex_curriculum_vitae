@@ -1,0 +1,17 @@
+checks:
+    ruby:
+        code_rating: true
+        duplicate_code: true
+        style_while_until_do: true
+        style_signal_exception:
+            enforced_style: semantic
+        style_redundant_exception: true
+        style_raise_args:
+            enforced_style: exploded
+        style_predicate_name: true
+        style_comment_annotation: true
+        rails_output: true
+
+filter:
+    excluded_paths:
+        - 'test/*'

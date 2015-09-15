@@ -1,0 +1,27 @@
+language: ruby
+rvm:
+  - 2.2.0
+  - 2.2.1
+
+dist: trusty
+
+os:
+  - linux
+
+env:
+  global:
+    - JRUBY_OPTS=-Xcext.enabled=true
+    - CI=true
+    - TRAVIS=true
+    - LANG=en_US.UTF-8
+    - LC_ALL=en_US.UTF-8
+
+before_install:
+    - gem install bundler
+
+after_success:
+    - CI=true TRAVIS=true coveralls --verbose
+
+notifications:
+  email:
+    - samannsml@directbox.com

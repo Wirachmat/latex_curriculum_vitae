@@ -1,0 +1,39 @@
+AllCops:
+
+  Include:
+    - 'lib/**/*.rb'
+    - 'test/**/*.rb'
+
+  Exclude:
+    - 'Rakefile'
+
+  DisplayCopNames: true
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 80
+
+Metrics/CyclomaticComplexity:
+  Severity: warning
+
+Style/PerlBackrefs:
+  AutoCorrect: true
+
+Metrics/ParameterLists:
+  Max: 10
+  CountKeywordArgs: true
+
+Metrics/ClassLength:
+  CountComments: false  # count full line comments?
+  Max: 150
+
+Metrics/ModuleLength:
+  CountComments: false  # count full line comments?
+  Max: 190
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 20
+
+Style/RedundantReturn:
+  Enabled: false
