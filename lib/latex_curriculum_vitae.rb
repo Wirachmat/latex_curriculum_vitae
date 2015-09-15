@@ -4,8 +4,10 @@
 # @abstract Main Class for latex_curriculum_vitae
 #
 # Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
-# License: GPL-3
-#$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
+# License: MIT
+
+# rubocop:disable Metrics/LineLength
+# rubocop:disable Style/LeadingCommentSpace
 
 # Dependencies
 require 'fileutils'
@@ -25,6 +27,7 @@ class LatexCurriculumVitae
   entitytex = "#{home}/.latex_curriculum_vitae/entity.tex"
   personaldata = "#{home}/.latex_curriculum_vitae/personal_data.tex"
   csvout = "#{home}/.latex_curriculum_vitae/job-applications.csv"
+  # The version information
   VERSION = '0.1.5'
 
   # Get the needed Information for creating the application

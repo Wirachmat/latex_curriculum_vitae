@@ -4,13 +4,21 @@
 # @abstract CVEmail Module for latex_curriculum_vitae
 #
 # Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
-# License: GPL-3
+# License: MIT
 
 # Dependencies
 
+# rubocop:disable Metrics/LineLength
 # Module for creating the CV
 module CVEmail
   # Method for creating the email
+  # rubocop:disable Metrics/MethodLength
+  # rubocop:disable Metrics/AbcSize
+  # @param [String] contact Name of the contact
+  # @param [String] emailaddress Email address of the contact
+  # @param [String] jobtitle Title of the target job
+  # @param [String] contact_sex Can be male, female or unknown
+  # @param [String] proactive Can be yes or no
   def self.create_email(contact, emailaddress, jobtitle, contact_sex, proactive)
     # Hex codes from http://www.obkb.com/dcljr/charstxt.html
     space = '%20'
@@ -40,16 +48,17 @@ module CVEmail
 
     subject.gsub!(/ /, "#{space}")
 
+    # rubocop:disable Style/MultilineOperationIndentation
     body = "#{introduction}" + "#{crlf}" + "#{crlf}" +
-    'gerne möchte ich mich bei Ihnen für die obige Stelle bewerben.' + "#{crlf}" +
-    'Ich kann auf einige Jahre im IT-Bereich zurückblicken und war' + "#{crlf}" +
-    'hauptsächlich in den Bereichen Support und Geschäftsprozess- ' + "#{ampersand}" + "#{crlf}" +
-    'Anwendungsdokumentation tätig, zuletzt im Bankbereich.' + "#{crlf}" + "#{crlf}" +
-    'Auf die übliche übertriebene Selbstdarstellung verzichte ich an dieser' + "#{crlf}" +
-    'Stelle, da dies nicht mein Stil ist und Sie tatsächlich ohne mich' + "#{crlf}" +
-    'auskommen würden.' + "#{crlf}" + "#{crlf}" +
-    'Dennoch freue ich mich auf eine Einladung zum Vorstellungsgespräch.' + "#{crlf}" + "#{crlf}" +
-    'Meine Bewerbungsunterlagen sind der Mail als Anhang beigefügt.' + "#{crlf}"
+          'gerne möchte ich mich bei Ihnen für die obige Stelle bewerben.' + "#{crlf}" +
+          'Ich kann auf einige Jahre im IT-Bereich zurückblicken und war' + "#{crlf}" +
+          'hauptsächlich in den Bereichen Support und Geschäftsprozess- ' + "#{ampersand}" + "#{crlf}" +
+          'Anwendungsdokumentation tätig, zuletzt im Bankbereich.' + "#{crlf}" + "#{crlf}" +
+          'Auf die übliche übertriebene Selbstdarstellung verzichte ich an dieser' + "#{crlf}" +
+          'Stelle, da dies nicht mein Stil ist und Sie tatsächlich ohne mich' + "#{crlf}" +
+          'auskommen würden.' + "#{crlf}" + "#{crlf}" +
+          'Dennoch freue ich mich auf eine Einladung zum Vorstellungsgespräch.' + "#{crlf}" + "#{crlf}" +
+          'Meine Bewerbungsunterlagen sind der Mail als Anhang beigefügt.' + "#{crlf}"
     body.gsub!(/ /, "#{space}")
 
     home = Dir.home

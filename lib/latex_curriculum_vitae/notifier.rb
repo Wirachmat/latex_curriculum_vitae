@@ -4,14 +4,14 @@
 # @abstract Notifier Module for latex_curriculum_vitae
 #
 # Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
-# License: GPL-3
+# License: MIT
 
 # Dependencies
-
-# Module for notify the user
 require 'notifier'
 
+# Module for notify the user
 module Notifier
+  # Notifing method
   def self.run
     home = Dir.home
     prefix = "#{home}/.rvm/rubies/default"

@@ -25,6 +25,8 @@ After that it creates a new record into a csv file. So you can print out every t
 
 == FEATURES/PROBLEMS:
 
+* Ruby based LaTEX publisher for job applications
+
 == The tweaks (Ruby)
 
 * .latex_curriculum_vitae: Contains a personal_data.tex where your personal information is stored. Actually it is used by the Cover.
@@ -96,6 +98,11 @@ The resulting PDF and the CSV file are placed in /home/You/.latex_curriculum_vit
 If you like this little program so don't forget to give this GitHub repository a star :-)
 
 == REQUIREMENTS:
+
+* setup
+* notifier
+
+== REQUIREMENTS (hard dependencies):
 
 * pdflatex & xelatex
 * yad

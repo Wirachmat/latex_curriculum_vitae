@@ -1,0 +1,17 @@
+---
+title: API-Docs
+tagline: The API-Docs of latex_curriculum_vitae
+layout: default
+index: 2
+filters:
+  - erb
+  - links
+  - examples
+  - textile
+---
+
+h2. <%= page.config['title'] %>
+
+<div id="auto-toc"></div>
+
+The up to date API-DOcs you will find there: <a href="api/index.html">api/index.html</a>.

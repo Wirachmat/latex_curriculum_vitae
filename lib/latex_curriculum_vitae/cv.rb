@@ -4,7 +4,7 @@
 # @abstract CV Module for latex_curriculum_vitae
 #
 # Copyright (C) 2015  Sascha Manns <samannsml@directbox.com>
-# License: GPL-3
+# License: MIT
 
 # Dependencies
 
